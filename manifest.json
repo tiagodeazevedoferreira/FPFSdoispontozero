@@ -1,0 +1,22 @@
+{
+  "name": "Estatísticas FPFS",
+  "short_name": "Estatísticas FPFS",
+  "description": "Aplicação para visualização de estatísticas de jogos da Federação Paulista de Futsal",
+  "start_url": "https://tiagodeazevedoferreira.github.io/FPFSdoispontozero/",
+  "scope": "/FPFS/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1e40af",
+  "icons": [
+    {
+      "src": "./icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,310 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9 !important;
+}
+
+.header {
+  background-color: #1e40af;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.tab-navigation {
+  display: flex;
+  justify-content: center;
+  background-color: #f2f2f2;
+  padding: 0.5rem;
+}
+
+.tab-button {
+  background-color: #3b82f6;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.1s;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.tab-button:hover {
+  background-color: #2563eb;
+  transform: translateY(-1px);
+}
+
+.tab-button.active-tab {
+  background-color: #1d4ed8;
+}
+
+.tab-button:focus {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
+
+.tab-content {
+  display: none;
+  padding: 1rem;
+  overflow-x: visible !important;
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.table-container {
+  overflow-x: auto;
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  scrollbar-color: #3b82f6 #f2f2f2;
+  margin: 0;
+}
+
+.table-container::-webkit-scrollbar {
+  height: 6px;
+}
+
+.table-container::-webkit-scrollbar-track {
+  background: #f2f2f2;
+  border-radius: 4px;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+  background: #3b82f6;
+  border-radius: 4px;
+}
+
+.table-container::-webkit-scrollbar-thumb:hover {
+  background: #2563eb;
+}
+
+#artilharia .table-container {
+  width: auto !important;
+  min-width: 0 !important;
+  display: block;
+}
+
+.footer {
+  text-align: center;
+  background-color: #1e40af;
+  color: white;
+  padding: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 800px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+td {
+  max-width: 200px;
+}
+
+tr:nth-child(even) {
+  background-color: #d1fae5; /* Verde vibrante */
+}
+
+tr:hover {
+  background-color: #e0f2fe; /* Azul claro no hover */
+}
+
+th {
+  white-space: nowrap;
+  background-color: #2563eb; /* Rosa vibrante */
+  color: white;
+}
+
+#artilhariaTable {
+  width: auto !important;
+  min-width: 0 !important;
+  table-layout: auto !important;
+  margin: 0 !important;
+}
+
+#artilhariaTable th,
+#artilhariaTable td {
+  width: auto !important;
+  max-width: none !important;
+  white-space: nowrap !important;
+  padding: 4px 6px !important;
+  text-align: center;
+}
+
+.chart-container {
+  max-width: 600px;
+  margin: 1rem auto;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.loading-spinner {
+  display: none;
+  width: 40px;
+  height: 40px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3b82f6;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 1rem auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.toggle-filters:focus,
+button:focus {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
+
+.victory-row {
+  background-color: #d4edda !important;
+}
+
+.defeat-row {
+  background-color: #e2e8f0 !important;
+}
+
+.draw-row {
+  background-color: #fff3cd !important;
+}
+
+th.sortable {
+  cursor: pointer;
+  position: relative;
+}
+
+th.sortable:hover {
+  text-decoration: underline;
+}
+
+th.sort-asc::after {
+  content: ' ↑';
+  font-size: 0.8rem;
+}
+
+th.sort-desc::after {
+  content: ' ↓';
+  font-size: 0.8rem;
+}
+
+.bg-white {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+  border-radius: 8px !important;
+}
+
+.bg-blue-500, .bg-gray-500, .bg-green-500, .bg-blue-600 {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+  border-radius: 6px !important;
+  transition: transform 0.1s ease;
+}
+
+.bg-blue-500:hover, .bg-gray-500:hover, .bg-green-500:hover, .bg-blue-600:hover {
+  transform: translateY(-1px);
+}
+
+.bg-red-100 {
+  background-color: #f5e6e8 !important;
+}
+
+.text-red-700 {
+  color: #d91a2a !important;
+}
+
+.bg-yellow-100 {
+  background-color: #fef9e7 !important;
+}
+
+.text-yellow-700 {
+  color: #d97706 !important;
+}
+
+@media (max-width: 768px) {
+  .filters {
+    font-size: 0.9rem;
+  }
+  
+  table {
+    font-size: 0.6rem;
+  }
+  
+  th, td {
+    padding: 4px;
+    max-width: 150px;
+  }
+
+  #artilhariaTable th,
+  #artilhariaTable td {
+    padding: 2px 4px !important;
+  }
+
+  .tab-button {
+    font-size: 0.8rem;
+    padding: 0.4rem 0.8rem;
+  }
+
+  .chart-container {
+    max-width: 100%;
+    padding: 0.5rem;
+  }
+}
+
+/* Estilização para gráficos lado a lado na aba Estatísticas 2 */
+#estatisticas2 .charts-container {
+  display: flex;
+  flex-wrap: nowrap; /* Impede quebra de linha */
+  gap: 0; /* Remove espaçamento entre os gráficos */
+  justify-content: flex-start; /* Alinha à esquerda */
+  overflow-x: auto; /* Permite rolagem horizontal */
+  padding: 0.5rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+#estatisticas2 .chart-container {
+  flex: 0 0 auto; /* Evita expansão desnecessária */
+  min-width: 280px; /* Ajustado para gráficos menores */
+  max-width: 320px; /* Limite para consistência */
+  margin: 0; /* Remove margens */
+  padding: 0.5rem; /* Padding mínimo */
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#estatisticas2 .chart-container canvas {
+  width: 100% !important;
+  height: 300px !important; /* Altura fixa para visibilidade */
+  margin: 0 !important;
+}
+
+.filter-controls {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .filter-controls {
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+}

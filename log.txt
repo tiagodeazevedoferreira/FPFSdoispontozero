@@ -1,0 +1,925 @@
+ Script.js iniciado
+ Inicializando aplicação
+ Mapa de times_apelidos carregado do cache: Object
+ Populando filtros globais
+ Filtros globais carregados do cache: Object
+ Buscando divisões: https://fpfsdoispontozero-default-rtdb.firebaseio.com/jogos/2025.json?cacheBuster=1750966076085
+ Dados brutos de /jogos/2025: Object
+ Divisões deduplicadas e ordenadas: Array(2)
+ Buscando categorias para divisão: https://fpfsdoispontozero-default-rtdb.firebaseio.com/jogos/2025/A1.json?cacheBuster=1750966076538
+ Categorias ordenadas: Array(4)
+ Label de seleção atualizado: Selecionado: A1, Sub-9
+ Label de seleção atualizado: Selecionado: A1, Sub-9
+ Iniciando requisição ao Firebase para jogos: https://fpfsdoispontozero-default-rtdb.firebaseio.com/jogos/2025/A1/Sub-9/2025_1.json?cacheBuster=1750966076806
+ Dados brutos de https://fpfsdoispontozero-default-rtdb.firebaseio.com/jogos/2025/A1/Sub-9/2025_1.json?cacheBuster=1750966076806: null
+ Tentando fallback para jogos: https://fpfsdoispontozero-default-rtdb.firebaseio.com/jogos/2025/A1/Sub-9.json?cacheBuster=1750966076995
+ Dados brutos de fallback https://fpfsdoispontozero-default-rtdb.firebaseio.com/jogos/2025/A1/Sub-9.json?cacheBuster=1750966076995: Object
+ Jogos - Mandante: A.D. SUZANO -> Suzano, Visitante: SANTOS FC -> Santos, Ginásio: GINÁSIO DO SESC - SUZANO -> Ginásio Do Sesc - Suzano
+ Jogos - Mandante: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Visitante: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga, Ginásio: GINÁSIO JOAQUIM CAMBAÚVA RABELLO -> Ginásio Joaquim Cambaúva Rabello
+ Jogos - Mandante: LAUSANNE PAULISTA FC - A -> Lausanne, Visitante: S.E. ELITE ITAQUERENSE -> Elite, Ginásio: GINÁSIO CYRO GILBERTO SAVOY -> Ginásio Cyro Gilberto Savoy
+ Jogos - Mandante: E.C. HORTOLANDIA -> Hortolândia, Visitante: C.A. TABUCA JRS -> Tabuca, Ginásio: GINÁSIO MUNICIPAL VICTOR SAVALA -> Ginásio Municipal Victor Savala
+ Jogos - Mandante: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Visitante: SE PALMEIRAS -> Palmeiras, Ginásio: GINÁSIO PRESIDENTE CIRO II -> Ginásio Presidente Ciro Ii
+ Jogos - Mandante: GREMETAL -> Gremetal, Visitante: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Ginásio: GINÁSIO DO JABAQUARA -> Ginásio Do Jabaquara
+ Jogos - Mandante: SANTOS FC -> Santos, Visitante: MARVEL -> Marvel, Ginásio: GINÁSIO DO JABAQUARA -> Ginásio Do Jabaquara
+ Jogos - Mandante: A.D. BATEBOLA -> Batebola, Visitante: CAMISA 10 F.C. -> Camisa 10, Ginásio: GINÁSIO ARENA BATEBOLA SPORTS -> Ginásio Arena Batebola Sports
+ Jogos - Mandante: S.E. ELITE ITAQUERENSE -> Elite, Visitante: C.A. JUVENTUS -> Juventus, Ginásio: GINÁSIO ELITE ITAQUERENSE -> Ginásio Elite Itaquerense
+ Jogos - Mandante: A.D. SUZANO -> Suzano, Visitante: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga, Ginásio: GINÁSIO JOAQUIM CAMBAÚVA RABELLO -> Ginásio Joaquim Cambaúva Rabello
+ Jogos - Mandante: TAUBATÉ FUTSAL -> Taubaté, Visitante: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Ginásio: GINÁSIO DE ESPORTES VILA APARECIDA -> Ginásio De Esportes Vila Aparecida
+ Jogos - Mandante: C.A. TABUCA JRS -> Tabuca, Visitante: A.D. SUZANO -> Suzano, Ginásio: GINÁSIO CIE - PIETRA MEDEIROS -> Ginásio Cie - Pietra Medeiros
+ Jogos - Mandante: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga, Visitante: A.D. BATEBOLA -> Batebola, Ginásio: GINÁSIO JOAQUIM CAMBAÚVA RABELLO -> Ginásio Joaquim Cambaúva Rabello
+ Jogos - Mandante: SE PALMEIRAS -> Palmeiras, Visitante: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Ginásio: GINÁSIO ARENA PALESTRA ITÁLIA -> Ginásio Arena Palestra Itália
+ Jogos - Mandante: CAMISA 10 F.C. -> Camisa 10, Visitante: GREMETAL -> Gremetal, Ginásio: GINÁSIO POLIESPORTIVO ARMANDO FREDIANI -> Ginásio Poliesportivo Armando Frediani
+ Jogos - Mandante: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Visitante: LAUSANNE PAULISTA FC - A -> Lausanne, Ginásio: GINÁSIO CLUBE MESC -> Ginásio Clube Mesc
+ Jogos - Mandante: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Visitante: ASF/MAGNUS -> Magnus, Ginásio: GINÁSIO SEBASTIÃO RAFAEL DA SILVA - GEODÉSICO -> Ginásio Sebastião Rafael Da Silva - Geodésico
+ Jogos - Mandante: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Visitante: SÃO PAULO FC - A -> São Paulo, Ginásio: GINÁSIO DR. ANTONIO LEME NUNES GALVÃO -> Ginásio Dr. Antonio Leme Nunes Galvão
+ Jogos - Mandante: C.A. YPIRANGA -> Ypiranga, Visitante: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Ginásio: GINÁSIO PRESIDENTE CIRO II -> Ginásio Presidente Ciro Ii
+ Jogos - Mandante: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé, Visitante: E.C. HORTOLANDIA -> Hortolândia, Ginásio: GINÁSIO ACRE CLUBE -> Ginásio Acre Clube
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO JUVENTUS -> Ginásio Juventus
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO DO SESC - SUZANO -> Ginásio Do Sesc - Suzano
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINASIO ARENA UNILUS -> Ginasio Arena Unilus
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: COMPLEXO ESPORTIVO MORADA DO SOL -> Complexo Esportivo Morada Do Sol
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO ARENA SOROCABA -> Ginásio Arena Sorocaba
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO DO JABAQUARA -> Ginásio Do Jabaquara
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO JOAQUIM CAMBAÚVA RABELLO -> Ginásio Joaquim Cambaúva Rabello
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO PRESIDENTE CIRO II -> Ginásio Presidente Ciro Ii
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO WLAMIR MARQUES -> Ginásio Wlamir Marques
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO ARENA BATEBOLA SPORTS -> Ginásio Arena Batebola Sports
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO PRESIDENTE CIRO II -> Ginásio Presidente Ciro Ii
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO CYRO GILBERTO SAVOY -> Ginásio Cyro Gilberto Savoy
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINASIO MUNICIPAL DURVAL GONÇALVES -> Ginasio Municipal Durval Gonçalves
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO DO JABAQUARA -> Ginásio Do Jabaquara
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO DR. ANTONIO LEME NUNES GALVÃO -> Ginásio Dr. Antonio Leme Nunes Galvão
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO PRESIDENTE CIRO II -> Ginásio Presidente Ciro Ii
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO ELITE ITAQUERENSE -> Ginásio Elite Itaquerense
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO ARENA PALESTRA ITÁLIA -> Ginásio Arena Palestra Itália
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO DE ESPORTES VILA APARECIDA -> Ginásio De Esportes Vila Aparecida
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO CIE - PIETRA MEDEIROS -> Ginásio Cie - Pietra Medeiros
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO POLIESPORTIVO ARMANDO FREDIANI -> Ginásio Poliesportivo Armando Frediani
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO CLUBE MESC -> Ginásio Clube Mesc
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO ACRE CLUBE -> Ginásio Acre Clube
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: A DEFINIR -> A Definir
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO SEBASTIÃO RAFAEL DA SILVA - GEODÉSICO -> Ginásio Sebastião Rafael Da Silva - Geodésico
+ Jogos - Mandante: TAUBATÉ FUTSAL -> Taubaté, Visitante: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé, Ginásio: GINÁSIO DE ESPORTES VILA APARECIDA -> Ginásio De Esportes Vila Aparecida
+ Jogos - Mandante: MARVEL -> Marvel, Visitante: ASF/MAGNUS -> Magnus, Ginásio: GINASIO ARENA UNILUS -> Ginasio Arena Unilus
+ Jogos - Mandante: C.A. JUVENTUS -> Juventus, Visitante: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga, Ginásio: GINÁSIO JUVENTUS -> Ginásio Juventus
+ Jogos - Mandante: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Visitante: SÃO PAULO FC - A -> São Paulo, Ginásio: GINÁSIO WLAMIR MARQUES -> Ginásio Wlamir Marques
+ Jogos - Mandante: SE PALMEIRAS -> Palmeiras, Visitante: S.E. ELITE ITAQUERENSE -> Elite, Ginásio: GINÁSIO ARENA PALESTRA ITÁLIA -> Ginásio Arena Palestra Itália
+ Jogos - Mandante: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Visitante: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Ginásio: COMPLEXO ESPORTIVO MORADA DO SOL -> Complexo Esportivo Morada Do Sol
+ Jogos - Mandante: SANTOS FC -> Santos, Visitante: C.A. TABUCA JRS -> Tabuca, Ginásio: GINÁSIO DO JABAQUARA -> Ginásio Do Jabaquara
+ Jogos - Mandante: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Visitante: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Ginásio: GINÁSIO PRESIDENTE CIRO I -> Ginásio Presidente Ciro I
+ Jogos - Mandante: E.C. HORTOLANDIA -> Hortolândia, Visitante: LAUSANNE PAULISTA FC - A -> Lausanne, Ginásio: GINÁSIO MUNICIPAL VICTOR SAVALA -> Ginásio Municipal Victor Savala
+ Jogos - Mandante: C.A. YPIRANGA -> Ypiranga, Visitante: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Ginásio: GINÁSIO CHEIDT JAFET -> Ginásio Cheidt Jafet
+ Jogos - Mandante: SÃO PAULO FC - A -> São Paulo, Visitante: MARVEL -> Marvel, Ginásio: GINÁSIO DR. ANTONIO LEME NUNES GALVÃO -> Ginásio Dr. Antonio Leme Nunes Galvão
+ Jogos - Mandante: S.E. ELITE ITAQUERENSE -> Elite, Visitante: C.A. YPIRANGA -> Ypiranga, Ginásio: GINÁSIO ELITE ITAQUERENSE -> Ginásio Elite Itaquerense
+ Jogos - Mandante: CAMISA 10 F.C. -> Camisa 10, Visitante: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Ginásio: GINÁSIO POLIESPORTIVO ARMANDO FREDIANI -> Ginásio Poliesportivo Armando Frediani
+ Jogos - Mandante: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga, Visitante: SANTOS FC -> Santos, Ginásio: GINÁSIO JOAQUIM CAMBAÚVA RABELLO -> Ginásio Joaquim Cambaúva Rabello
+ Jogos - Mandante: GREMETAL -> Gremetal, Visitante: E.C. HORTOLANDIA -> Hortolândia, Ginásio: GINÁSIO DO JABAQUARA -> Ginásio Do Jabaquara
+ Jogos - Mandante: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé, Visitante: SE PALMEIRAS -> Palmeiras, Ginásio: GINÁSIO ACRE CLUBE -> Ginásio Acre Clube
+ Jogos - Mandante: ASF/MAGNUS -> Magnus, Visitante: A.D. SUZANO -> Suzano, Ginásio: GINÁSIO EDSON ANTÃO DE SOUZA -> Ginásio Edson Antão De Souza
+ Jogos - Mandante: LAUSANNE PAULISTA FC - A -> Lausanne, Visitante: C.A. JUVENTUS -> Juventus, Ginásio: GINÁSIO CYRO GILBERTO SAVOY -> Ginásio Cyro Gilberto Savoy
+ Jogos - Mandante: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Visitante: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Ginásio: GINÁSIO SEBASTIÃO RAFAEL DA SILVA - GEODÉSICO -> Ginásio Sebastião Rafael Da Silva - Geodésico
+ Jogos - Mandante: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Visitante: A.D. BATEBOLA -> Batebola, Ginásio: GINÁSIO CLUBE MESC -> Ginásio Clube Mesc
+ Jogos - Mandante: C.A. TABUCA JRS -> Tabuca, Visitante: TAUBATÉ FUTSAL -> Taubaté, Ginásio: GINÁSIO CIE - PIETRA MEDEIROS -> Ginásio Cie - Pietra Medeiros
+ Jogos - Mandante: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Visitante: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Ginásio: GINÁSIO WLAMIR MARQUES -> Ginásio Wlamir Marques
+ Jogos - Mandante: C.A. JUVENTUS -> Juventus, Visitante: GREMETAL -> Gremetal, Ginásio: GINÁSIO JUVENTUS -> Ginásio Juventus
+ Jogos - Mandante: MARVEL -> Marvel, Visitante: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Ginásio: GINASIO ARENA UNILUS -> Ginasio Arena Unilus
+ Jogos - Mandante: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Visitante: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Ginásio: GINÁSIO PRESIDENTE CIRO I -> Ginásio Presidente Ciro I
+ Jogos - Mandante: A.D. SUZANO -> Suzano, Visitante: SÃO PAULO FC - A -> São Paulo, Ginásio: GINÁSIO DO SESC - SUZANO -> Ginásio Do Sesc - Suzano
+ Jogos - Mandante: TAUBATÉ FUTSAL -> Taubaté, Visitante: SANTOS FC -> Santos, Ginásio: GINÁSIO DE ESPORTES VILA APARECIDA -> Ginásio De Esportes Vila Aparecida
+ Jogos - Mandante: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Visitante: CAMISA 10 F.C. -> Camisa 10, Ginásio: COMPLEXO ESPORTIVO MORADA DO SOL -> Complexo Esportivo Morada Do Sol
+ Jogos - Mandante: C.A. YPIRANGA -> Ypiranga, Visitante: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé, Ginásio: GINÁSIO CHEIDT JAFET -> Ginásio Cheidt Jafet
+ Jogos - Mandante: E.C. HORTOLANDIA -> Hortolândia, Visitante: ASF/MAGNUS -> Magnus, Ginásio: GINÁSIO MUNICIPAL VICTOR SAVALA -> Ginásio Municipal Victor Savala
+ Jogos - Mandante: LAUSANNE PAULISTA FC - A -> Lausanne, Visitante: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga, Ginásio: GINÁSIO CYRO GILBERTO SAVOY -> Ginásio Cyro Gilberto Savoy
+ Jogos - Mandante: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Visitante: ASF/MAGNUS -> Magnus, Ginásio: COMPLEXO ESPORTIVO MORADA DO SOL -> Complexo Esportivo Morada Do Sol
+ Jogos - Mandante: A.D. SUZANO -> Suzano, Visitante: C.A. JUVENTUS -> Juventus, Ginásio: GINÁSIO DO SESC - SUZANO -> Ginásio Do Sesc - Suzano
+ Jogos - Mandante: MARVEL -> Marvel, Visitante: LAUSANNE PAULISTA FC - A -> Lausanne, Ginásio: GINASIO ARENA UNILUS -> Ginasio Arena Unilus
+ Jogos - Mandante: TAUBATÉ FUTSAL -> Taubaté, Visitante: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Ginásio: GINÁSIO DE ESPORTES VILA APARECIDA -> Ginásio De Esportes Vila Aparecida
+ Jogos - Mandante: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Visitante: GREMETAL -> Gremetal, Ginásio: GINÁSIO WLAMIR MARQUES -> Ginásio Wlamir Marques
+ Jogos - Mandante: SANTOS FC -> Santos, Visitante: S.E. ELITE ITAQUERENSE -> Elite, Ginásio: GINÁSIO DO JABAQUARA -> Ginásio Do Jabaquara
+ Jogos - Mandante: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga, Visitante: E.C. HORTOLANDIA -> Hortolândia, Ginásio: GINÁSIO JOAQUIM CAMBAÚVA RABELLO -> Ginásio Joaquim Cambaúva Rabello
+ Jogos - Mandante: C.A. TABUCA JRS -> Tabuca, Visitante: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé, Ginásio: GINÁSIO CIE - PIETRA MEDEIROS -> Ginásio Cie - Pietra Medeiros
+ Jogos - Mandante: A.D. BATEBOLA -> Batebola, Visitante: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Ginásio: GINÁSIO ARENA BATEBOLA SPORTS -> Ginásio Arena Batebola Sports
+ Jogos - Mandante: C.A. YPIRANGA -> Ypiranga, Visitante: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Ginásio: GINÁSIO CHEIDT JAFET -> Ginásio Cheidt Jafet
+ Jogos - Mandante: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Visitante: SÃO PAULO FC - A -> São Paulo, Ginásio: GINÁSIO PRESIDENTE CIRO II -> Ginásio Presidente Ciro Ii
+ Jogos - Mandante: S.E. ELITE ITAQUERENSE -> Elite, Visitante: TAUBATÉ FUTSAL -> Taubaté, Ginásio: GINÁSIO ELITE ITAQUERENSE -> Ginásio Elite Itaquerense
+ Jogos - Mandante: ASF/MAGNUS -> Magnus, Visitante: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Ginásio: GINÁSIO ARENA SOROCABA -> Ginásio Arena Sorocaba
+ Jogos - Mandante: SÃO PAULO FC - A -> São Paulo, Visitante: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Ginásio: GINÁSIO DR. ANTONIO LEME NUNES GALVÃO -> Ginásio Dr. Antonio Leme Nunes Galvão
+ Jogos - Mandante: GREMETAL -> Gremetal, Visitante: MARVEL -> Marvel, Ginásio: GINÁSIO DO JABAQUARA -> Ginásio Do Jabaquara
+ Jogos - Mandante: C.A. JUVENTUS -> Juventus, Visitante: E.C. HORTOLANDIA -> Hortolândia, Ginásio: GINÁSIO JUVENTUS -> Ginásio Juventus
+ Jogos - Mandante: CAMISA 10 F.C. -> Camisa 10, Visitante: C.A. YPIRANGA -> Ypiranga, Ginásio: GINÁSIO POLIESPORTIVO ARMANDO FREDIANI -> Ginásio Poliesportivo Armando Frediani
+ Jogos - Mandante: C.A. TABUCA JRS -> Tabuca, Visitante: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga, Ginásio: GINÁSIO CIE - PIETRA MEDEIROS -> Ginásio Cie - Pietra Medeiros
+ Jogos - Mandante: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé, Visitante: SANTOS FC -> Santos, Ginásio: GINÁSIO ACRE CLUBE -> Ginásio Acre Clube
+ Jogos - Mandante: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Visitante: SE PALMEIRAS -> Palmeiras, Ginásio: GINÁSIO CLUBE MESC -> Ginásio Clube Mesc
+ Jogos - Mandante: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Visitante: A.D. BATEBOLA -> Batebola, Ginásio: GINÁSIO SEBASTIÃO RAFAEL DA SILVA - GEODÉSICO -> Ginásio Sebastião Rafael Da Silva - Geodésico
+ Jogos - Mandante: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Visitante: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Ginásio: GINÁSIO DO SESC - SUZANO -> Ginásio Do Sesc - Suzano
+ Jogos - Mandante: LAUSANNE PAULISTA FC - A -> Lausanne, Visitante: A.D. SUZANO -> Suzano, Ginásio: GINÁSIO CYRO GILBERTO SAVOY -> Ginásio Cyro Gilberto Savoy
+ Jogos - Mandante: A.D. SUZANO -> Suzano, Visitante: MARVEL -> Marvel, Ginásio: GINÁSIO DO SESC - SUZANO -> Ginásio Do Sesc - Suzano
+ Jogos - Mandante: SE PALMEIRAS -> Palmeiras, Visitante: C.A. TABUCA JRS -> Tabuca, Ginásio: GINÁSIO ARENA PALESTRA ITÁLIA -> Ginásio Arena Palestra Itália
+ Jogos - Mandante: GREMETAL -> Gremetal, Visitante: A.D. BATEBOLA -> Batebola, Ginásio: GINÁSIO DO JABAQUARA -> Ginásio Do Jabaquara
+ Jogos - Mandante: ASF/MAGNUS -> Magnus, Visitante: C.A. YPIRANGA -> Ypiranga, Ginásio: GINÁSIO ARENA SOROCABA -> Ginásio Arena Sorocaba
+ Jogos - Mandante: A.D. SUZANO -> Suzano, Visitante: GREMETAL -> Gremetal, Ginásio: GINÁSIO DO SESC - SUZANO -> Ginásio Do Sesc - Suzano
+ Jogos - Mandante: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Visitante: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé, Ginásio: GINÁSIO CLUBE MESC -> Ginásio Clube Mesc
+ Jogos - Mandante: CAMISA 10 F.C. -> Camisa 10, Visitante: C.A. TABUCA JRS -> Tabuca, Ginásio: GINÁSIO POLIESPORTIVO ARMANDO FREDIANI -> Ginásio Poliesportivo Armando Frediani
+ Jogos - Mandante: SÃO PAULO FC - A -> São Paulo, Visitante: SE PALMEIRAS -> Palmeiras, Ginásio: GINÁSIO DR. ANTONIO LEME NUNES GALVÃO -> Ginásio Dr. Antonio Leme Nunes Galvão
+ Jogos - Mandante: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga, Visitante: S.E. ELITE ITAQUERENSE -> Elite, Ginásio: GINÁSIO JOAQUIM CAMBAÚVA RABELLO -> Ginásio Joaquim Cambaúva Rabello
+ Jogos - Mandante: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Visitante: TAUBATÉ FUTSAL -> Taubaté, Ginásio: GINÁSIO DO SESC - SUZANO -> Ginásio Do Sesc - Suzano
+ Jogos - Mandante: A.D. BATEBOLA -> Batebola, Visitante: S.E. ELITE ITAQUERENSE -> Elite, Ginásio: GINÁSIO ARENA BATEBOLA SPORTS -> Ginásio Arena Batebola Sports
+ Jogos - Mandante: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Visitante: SANTOS FC -> Santos, Ginásio: GINÁSIO POLIESPORTIVO DOMINGOS PITERI -> Ginásio Poliesportivo Domingos Piteri
+ Jogos - Mandante: LAUSANNE PAULISTA FC - A -> Lausanne, Visitante: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Ginásio: GINÁSIO CYRO GILBERTO SAVOY -> Ginásio Cyro Gilberto Savoy
+ Jogos - Mandante: E.C. HORTOLANDIA -> Hortolândia, Visitante: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Ginásio: GINÁSIO MUNICIPAL VICTOR SAVALA -> Ginásio Municipal Victor Savala
+ Jogos - Mandante: SE PALMEIRAS -> Palmeiras, Visitante: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Ginásio: GINÁSIO ARENA PALESTRA ITÁLIA -> Ginásio Arena Palestra Itália
+ Jogos - Mandante: MARVEL -> Marvel, Visitante: E.C. HORTOLANDIA -> Hortolândia, Ginásio: GINASIO ARENA UNILUS -> Ginasio Arena Unilus
+ Jogos - Mandante: TAUBATÉ FUTSAL -> Taubaté, Visitante: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Ginásio: GINÁSIO DE ESPORTES VILA APARECIDA -> Ginásio De Esportes Vila Aparecida
+ Jogos - Mandante: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Visitante: LAUSANNE PAULISTA FC - A -> Lausanne, Ginásio: COMPLEXO ESPORTIVO MORADA DO SOL -> Complexo Esportivo Morada Do Sol
+ Jogos - Mandante: SANTOS FC -> Santos, Visitante: CAMISA 10 F.C. -> Camisa 10, Ginásio: GINÁSIO DO JABAQUARA -> Ginásio Do Jabaquara
+ Jogos - Mandante: C.A. YPIRANGA -> Ypiranga, Visitante: SÃO PAULO FC - A -> São Paulo, Ginásio: GINÁSIO CHEIDT JAFET -> Ginásio Cheidt Jafet
+ Jogos - Mandante: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé, Visitante: S.E. ELITE ITAQUERENSE -> Elite, Ginásio: GINÁSIO ACRE CLUBE -> Ginásio Acre Clube
+ Jogos - Mandante: A.D. BATEBOLA -> Batebola, Visitante: ASF/MAGNUS -> Magnus, Ginásio: GINÁSIO ARENA BATEBOLA SPORTS -> Ginásio Arena Batebola Sports
+ Jogos - Mandante: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Visitante: C.A. JUVENTUS -> Juventus, Ginásio: GINÁSIO WLAMIR MARQUES -> Ginásio Wlamir Marques
+ Jogos - Mandante: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Visitante: GREMETAL -> Gremetal, Ginásio: GINÁSIO PRESIDENTE CIRO II -> Ginásio Presidente Ciro Ii
+ Jogos - Mandante: C.A. TABUCA JRS -> Tabuca, Visitante: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Ginásio: GINÁSIO CIE - PIETRA MEDEIROS -> Ginásio Cie - Pietra Medeiros
+ Jogos - Mandante: GREMETAL -> Gremetal, Visitante: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Ginásio: GINÁSIO DO JABAQUARA -> Ginásio Do Jabaquara
+ Jogos - Mandante: C.A. JUVENTUS -> Juventus, Visitante: MARVEL -> Marvel, Ginásio: GINÁSIO JUVENTUS -> Ginásio Juventus
+ Jogos - Mandante: SÃO PAULO FC - A -> São Paulo, Visitante: A.D. BATEBOLA -> Batebola, Ginásio: GINÁSIO DR. ANTONIO LEME NUNES GALVÃO -> Ginásio Dr. Antonio Leme Nunes Galvão
+ Jogos - Mandante: ASF/MAGNUS -> Magnus, Visitante: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Ginásio: GINÁSIO ARENA SOROCABA -> Ginásio Arena Sorocaba
+ Jogos - Mandante: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Visitante: SANTOS FC -> Santos, Ginásio: GINÁSIO CLUBE MESC -> Ginásio Clube Mesc
+ Jogos - Mandante: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga, Visitante: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé, Ginásio: GINÁSIO JOAQUIM CAMBAÚVA RABELLO -> Ginásio Joaquim Cambaúva Rabello
+ Jogos - Mandante: CAMISA 10 F.C. -> Camisa 10, Visitante: TAUBATÉ FUTSAL -> Taubaté, Ginásio: GINÁSIO POLIESPORTIVO ARMANDO FREDIANI -> Ginásio Poliesportivo Armando Frediani
+ Jogos - Mandante: S.E. ELITE ITAQUERENSE -> Elite, Visitante: C.A. TABUCA JRS -> Tabuca, Ginásio: GINÁSIO ELITE ITAQUERENSE -> Ginásio Elite Itaquerense
+ Jogos - Mandante: E.C. HORTOLANDIA -> Hortolândia, Visitante: A.D. SUZANO -> Suzano, Ginásio: GINASIO MUNICIPAL DURVAL GONÇALVES -> Ginasio Municipal Durval Gonçalves
+ Jogos - Mandante: LAUSANNE PAULISTA FC - A -> Lausanne, Visitante: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Ginásio: GINÁSIO CYRO GILBERTO SAVOY -> Ginásio Cyro Gilberto Savoy
+ Jogos - Mandante: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Visitante: SE PALMEIRAS -> Palmeiras, Ginásio: GINÁSIO SEBASTIÃO RAFAEL DA SILVA - GEODÉSICO -> Ginásio Sebastião Rafael Da Silva - Geodésico
+ Jogos - Mandante: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Visitante: C.A. YPIRANGA -> Ypiranga, Ginásio: GINÁSIO PRESIDENTE CIRO II -> Ginásio Presidente Ciro Ii
+ Jogos - Mandante: C.A. YPIRANGA -> Ypiranga, Visitante: GREMETAL -> Gremetal, Ginásio: GINÁSIO PRESIDENTE CIRO I -> Ginásio Presidente Ciro I
+ Jogos - Mandante: TAUBATÉ FUTSAL -> Taubaté, Visitante: SÃO PAULO FC - A -> São Paulo, Ginásio: GINÁSIO DE ESPORTES VILA APARECIDA -> Ginásio De Esportes Vila Aparecida
+ Jogos - Mandante: SE PALMEIRAS -> Palmeiras, Visitante: ASF/MAGNUS -> Magnus, Ginásio: GINÁSIO ARENA PALESTRA ITÁLIA -> Ginásio Arena Palestra Itália
+ Jogos - Mandante: SANTOS FC -> Santos, Visitante: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Ginásio: GINÁSIO DO JABAQUARA -> Ginásio Do Jabaquara
+ Jogos - Mandante: S.E. ELITE ITAQUERENSE -> Elite, Visitante: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Ginásio: GINÁSIO ELITE ITAQUERENSE -> Ginásio Elite Itaquerense
+ Jogos - Mandante: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Visitante: C.A. JUVENTUS -> Juventus, Ginásio: GINÁSIO C.R.E. FUNDAÇÃO -> Ginásio C.r.e. Fundação
+ Jogos - Mandante: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga, Visitante: MARVEL -> Marvel, Ginásio: GINÁSIO JOAQUIM CAMBAÚVA RABELLO -> Ginásio Joaquim Cambaúva Rabello
+ Jogos - Mandante: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Visitante: A.D. SUZANO -> Suzano, Ginásio: GINÁSIO WLAMIR MARQUES -> Ginásio Wlamir Marques
+ Jogos - Mandante: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Visitante: E.C. HORTOLANDIA -> Hortolândia, Ginásio: COMPLEXO ESPORTIVO MORADA DO SOL -> Complexo Esportivo Morada Do Sol
+ Jogos - Mandante: C.A. TABUCA JRS -> Tabuca, Visitante: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Ginásio: GINÁSIO CIE - PIETRA MEDEIROS -> Ginásio Cie - Pietra Medeiros
+ Jogos - Mandante: C.A. JUVENTUS -> Juventus, Visitante: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Ginásio: GINÁSIO JUVENTUS -> Ginásio Juventus
+ Jogos - Mandante: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé, Visitante: CAMISA 10 F.C. -> Camisa 10, Ginásio: GINÁSIO ACRE CLUBE -> Ginásio Acre Clube
+ Jogos - Mandante: A.D. BATEBOLA -> Batebola, Visitante: LAUSANNE PAULISTA FC - A -> Lausanne, Ginásio: GINÁSIO ARENA BATEBOLA SPORTS -> Ginásio Arena Batebola Sports
+ Jogos - Mandante: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Visitante: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Ginásio: GINÁSIO PRESIDENTE CIRO II -> Ginásio Presidente Ciro Ii
+ Jogos - Mandante: ASF/MAGNUS -> Magnus, Visitante: C.A. TABUCA JRS -> Tabuca, Ginásio: GINÁSIO ARENA SOROCABA -> Ginásio Arena Sorocaba
+ Jogos - Mandante: C.A. JUVENTUS -> Juventus, Visitante: SE PALMEIRAS -> Palmeiras, Ginásio: GINÁSIO JUVENTUS -> Ginásio Juventus
+ Jogos - Mandante: A.D. SUZANO -> Suzano, Visitante: A.D. BATEBOLA -> Batebola, Ginásio: GINÁSIO DO SESC - SUZANO -> Ginásio Do Sesc - Suzano
+ Jogos - Mandante: GREMETAL -> Gremetal, Visitante: SANTOS FC -> Santos, Ginásio: GINÁSIO DO JABAQUARA -> Ginásio Do Jabaquara
+ Jogos - Mandante: SÃO PAULO FC - A -> São Paulo, Visitante: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé, Ginásio: GINÁSIO DR. ANTONIO LEME NUNES GALVÃO -> Ginásio Dr. Antonio Leme Nunes Galvão
+ Jogos - Mandante: MARVEL -> Marvel, Visitante: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Ginásio: GINASIO ARENA UNILUS -> Ginasio Arena Unilus
+ Jogos - Mandante: CAMISA 10 F.C. -> Camisa 10, Visitante: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga, Ginásio: GINÁSIO POLIESPORTIVO ARMANDO FREDIANI -> Ginásio Poliesportivo Armando Frediani
+ Jogos - Mandante: E.C. HORTOLANDIA -> Hortolândia, Visitante: C.A. YPIRANGA -> Ypiranga, Ginásio: GINÁSIO MUNICIPAL VICTOR SAVALA -> Ginásio Municipal Victor Savala
+ Jogos - Mandante: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Visitante: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Ginásio: GINÁSIO PRESIDENTE CIRO II -> Ginásio Presidente Ciro Ii
+ Jogos - Mandante: LAUSANNE PAULISTA FC - A -> Lausanne, Visitante: TAUBATÉ FUTSAL -> Taubaté, Ginásio: GINÁSIO CYRO GILBERTO SAVOY -> Ginásio Cyro Gilberto Savoy
+ Jogos - Mandante: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Visitante: S.E. ELITE ITAQUERENSE -> Elite, Ginásio: GINÁSIO PRESIDENTE CIRO II -> Ginásio Presidente Ciro Ii
+ Jogos - Mandante: TAUBATÉ FUTSAL -> Taubaté, Visitante: C.A. JUVENTUS -> Juventus, Ginásio: GINÁSIO DE ESPORTES VILA APARECIDA -> Ginásio De Esportes Vila Aparecida
+ Jogos - Mandante: CAMISA 10 F.C. -> Camisa 10, Visitante: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Ginásio: GINÁSIO POLIESPORTIVO ARMANDO FREDIANI -> Ginásio Poliesportivo Armando Frediani
+ Jogos - Mandante: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Visitante: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Ginásio: GINÁSIO C.R.E. FUNDAÇÃO -> Ginásio C.r.e. Fundação
+ Jogos - Mandante: SE PALMEIRAS -> Palmeiras, Visitante: E.C. HORTOLANDIA -> Hortolândia, Ginásio: GINÁSIO ARENA PALESTRA ITÁLIA -> Ginásio Arena Palestra Itália
+ Jogos - Mandante: SANTOS FC -> Santos, Visitante: LAUSANNE PAULISTA FC - A -> Lausanne, Ginásio: GINÁSIO DO JABAQUARA -> Ginásio Do Jabaquara
+ Jogos - Mandante: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga, Visitante: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Ginásio: GINÁSIO JOAQUIM CAMBAÚVA RABELLO -> Ginásio Joaquim Cambaúva Rabello
+ Jogos - Mandante: C.A. TABUCA JRS -> Tabuca, Visitante: GREMETAL -> Gremetal, Ginásio: GINÁSIO CIE - PIETRA MEDEIROS -> Ginásio Cie - Pietra Medeiros
+ Jogos - Mandante: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé, Visitante: ASF/MAGNUS -> Magnus, Ginásio: GINÁSIO ACRE CLUBE -> Ginásio Acre Clube
+ Jogos - Mandante: A.D. BATEBOLA -> Batebola, Visitante: MARVEL -> Marvel, Ginásio: GINÁSIO ARENA BATEBOLA SPORTS -> Ginásio Arena Batebola Sports
+ Jogos - Mandante: SE PALMEIRAS -> Palmeiras, Visitante: CAMISA 10 F.C. -> Camisa 10, Ginásio: GINÁSIO ARENA PALESTRA ITÁLIA -> Ginásio Arena Palestra Itália
+ Jogos - Mandante: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Visitante: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Ginásio: GINÁSIO CLUBE MESC -> Ginásio Clube Mesc
+ Jogos - Mandante: S.E. ELITE ITAQUERENSE -> Elite, Visitante: SÃO PAULO FC - A -> São Paulo, Ginásio: GINÁSIO ELITE ITAQUERENSE -> Ginásio Elite Itaquerense
+ Jogos - Mandante: C.A. YPIRANGA -> Ypiranga, Visitante: A.D. SUZANO -> Suzano, Ginásio: GINÁSIO PRESIDENTE CIRO II -> Ginásio Presidente Ciro Ii
+ Jogos - Mandante: C.A. JUVENTUS -> Juventus, Visitante: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé, Ginásio: GINÁSIO JUVENTUS -> Ginásio Juventus
+ Jogos - Mandante: MARVEL -> Marvel, Visitante: TAUBATÉ FUTSAL -> Taubaté, Ginásio: GINASIO ARENA UNILUS -> Ginasio Arena Unilus
+ Jogos - Mandante: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Visitante: C.A. YPIRANGA -> Ypiranga, Ginásio: COMPLEXO ESPORTIVO MORADA DO SOL -> Complexo Esportivo Morada Do Sol
+ Jogos - Mandante: ASF/MAGNUS -> Magnus, Visitante: CAMISA 10 F.C. -> Camisa 10, Ginásio: GINÁSIO ARENA SOROCABA -> Ginásio Arena Sorocaba
+ Jogos - Mandante: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Visitante: A.D. BATEBOLA -> Batebola, Ginásio: GINÁSIO C.R.E. FUNDAÇÃO -> Ginásio C.r.e. Fundação
+ Jogos - Mandante: SÃO PAULO FC - A -> São Paulo, Visitante: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Ginásio: GINÁSIO DR. ANTONIO LEME NUNES GALVÃO -> Ginásio Dr. Antonio Leme Nunes Galvão
+ Dados convertidos para jogos: Array(181)
+ Iniciando requisição ao Firebase para classificacao: https://fpfsdoispontozero-default-rtdb.firebaseio.com/classificacao/2025/A1/Sub-9.json?cacheBuster=1750966077206
+ Dados brutos de https://fpfsdoispontozero-default-rtdb.firebaseio.com/classificacao/2025/A1/Sub-9.json?cacheBuster=1750966077206: Object
+ Linha inválida em classificacao (chave 2025_139): Object
+(anônimo) @ script.js:362
+ Classificação - Time: SE PALMEIRAS -> Palmeiras
+ Classificação - Time: SANTOS FC -> Santos
+ Classificação - Time: SÃO CAETANO FUTEBOL CLUBE -> RSFC
+ Classificação - Time: C.A. JUVENTUS -> Juventus
+ Classificação - Time: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians
+ Classificação - Time: SÃO PAULO FC - A -> São Paulo
+ Classificação - Time: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa
+ Classificação - Time: C.A. YPIRANGA -> Ypiranga
+ Classificação - Time: E.C. HORTOLANDIA -> Hortolândia
+ Classificação - Time: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga
+ Classificação - Time: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI
+ Classificação - Time: A.D. BATEBOLA -> Batebola
+ Classificação - Time: LAUSANNE PAULISTA FC - A -> Lausanne
+ Classificação - Time: CAMISA 10 F.C. -> Camisa 10
+ Classificação - Time: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax
+ Classificação - Time: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc
+ Classificação - Time: TAUBATÉ FUTSAL -> Taubaté
+ Classificação - Time: MARVEL -> Marvel
+ Classificação - Time: ASF/MAGNUS -> Magnus
+ Classificação - Time: GREMETAL -> Gremetal
+ Classificação - Time: C.A. TABUCA JRS -> Tabuca
+ Classificação - Time: S.E. ELITE ITAQUERENSE -> Elite
+ Classificação - Time: A.D. SUZANO -> Suzano
+ Classificação - Time: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé
+ Dados convertidos para classificacao: Array(25)
+ Iniciando requisição ao Firebase para artilharia: https://fpfsdoispontozero-default-rtdb.firebaseio.com/artilharia/2025/A1/Sub-9/2025_1.json?cacheBuster=1750966077407
+ Dados brutos de https://fpfsdoispontozero-default-rtdb.firebaseio.com/artilharia/2025/A1/Sub-9/2025_1.json?cacheBuster=1750966077407: null
+ Tentando fallback para artilharia: https://fpfsdoispontozero-default-rtdb.firebaseio.com/artilharia/2025/A1/Sub-9.json?cacheBuster=1750966077608
+ Dados brutos de fallback https://fpfsdoispontozero-default-rtdb.firebaseio.com/artilharia/2025/A1/Sub-9.json?cacheBuster=1750966077608: Object
+ Artilharia - Clube: SE PALMEIRAS -> Palmeiras, Jogador: HEDUARDO OLIVEIRA BURGOS -> Heduardo Oliveira Burgos
+ Artilharia - Clube: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Jogador: LUCAS DE OLIVEIRA NUNES -> Lucas De Oliveira Nunes
+ Artilharia - Clube: C.A. JUVENTUS -> Juventus, Jogador: RONALDO COLANTUONO FILHO -> Ronaldo Colantuono Filho
+ Artilharia - Clube: SANTOS FC -> Santos, Jogador: NÍCOLAS COLETTE QUICUCA -> Nícolas Colette Quicuca
+ Artilharia - Clube: LAUSANNE PAULISTA FC - A -> Lausanne, Jogador: JORGE TONELLI AMARAL SANTOS -> Jorge Tonelli Amaral Santos
+ Artilharia - Clube: C.A. YPIRANGA -> Ypiranga, Jogador: ENZO MIGUEL SOUSA CARVALHO -> Enzo Miguel Sousa Carvalho
+ Artilharia - Clube: SE PALMEIRAS -> Palmeiras, Jogador: SAMUEL SILVERIO DA SILVA CARDOSO -> Samuel Silverio Da Silva Cardoso
+ Artilharia - Clube: C.A. JUVENTUS -> Juventus, Jogador: HENRIQUE OLIVEIRA BRANCO FERNANDES -> Henrique Oliveira Branco Fernandes
+ Artilharia - Clube: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Jogador: ENZO MARQUES CAMPOS CORREA -> Enzo Marques Campos Correa
+ Artilharia - Clube: SANTOS FC -> Santos, Jogador: HENRIQUE VIEIRA CAMARGO -> Henrique Vieira Camargo
+ Artilharia - Clube: SÃO PAULO FC - A -> São Paulo, Jogador: DANIEL PEREIRA ESTEFANI VIEIRA -> Daniel Pereira Estefani Vieira
+ Artilharia - Clube: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Jogador: DAVI MENDES MELO -> Davi Mendes Melo
+ Artilharia - Clube: E.C. HORTOLANDIA -> Hortolândia, Jogador: ENZO GABRIEL SANTOS SEBASTIÃO -> Enzo Gabriel Santos Sebastião
+ Artilharia - Clube: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Jogador: PEDRO PADILHA DO NASCIMENTO -> Pedro Padilha Do Nascimento
+ Artilharia - Clube: SÃO PAULO FC - A -> São Paulo, Jogador: ENRICO VIEIRA SANTOS -> Enrico Vieira Santos
+ Artilharia - Clube: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Jogador: HENRIQUE MOREIRA CARDOSO DOS SANTOS -> Henrique Moreira Cardoso Dos Santos
+ Artilharia - Clube: SANTOS FC -> Santos, Jogador: ANTHONY CARLOS NUNES REIS -> Anthony Carlos Nunes Reis
+ Artilharia - Clube: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Jogador: ENZO FERREIRA DE OLIVEIRA -> Enzo Ferreira De Oliveira
+ Artilharia - Clube: C.A. JUVENTUS -> Juventus, Jogador: AUGUSTO GABRIEL GOMES LUNA -> Augusto Gabriel Gomes Luna
+ Artilharia - Clube: C.A. TABUCA JRS -> Tabuca, Jogador: MATHEUS SOUSA DA SILVA -> Matheus Sousa Da Silva
+ Artilharia - Clube: E.C. HORTOLANDIA -> Hortolândia, Jogador: LORENZO MARCHESI LEITE -> Lorenzo Marchesi Leite
+ Artilharia - Clube: SANTOS FC -> Santos, Jogador: ANTHONY SILVA ORTIZ -> Anthony Silva Ortiz
+ Artilharia - Clube: SE PALMEIRAS -> Palmeiras, Jogador: BRYAN HENRIQUE DE SOUZA FARIA -> Bryan Henrique De Souza Faria
+ Artilharia - Clube: SANTOS FC -> Santos, Jogador: SAMUEL DOS SANYTOS COSTA -> Samuel Dos Sanytos Costa
+ Artilharia - Clube: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Jogador: ARTHUR PHELLIPE DOS SANTOS CORREA -> Arthur Phellipe Dos Santos Correa
+ Artilharia - Clube: SANTOS FC -> Santos, Jogador: MURILO SANTANA MARQUES -> Murilo Santana Marques
+ Artilharia - Clube: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé, Jogador: GABRIEL RODRIGUES RESENDE -> Gabriel Rodrigues Resende
+ Artilharia - Clube: SE PALMEIRAS -> Palmeiras, Jogador: DAVI LUCCA DE MOURA VIEIRA -> Davi Lucca De Moura Vieira
+ Artilharia - Clube: E.C. HORTOLANDIA -> Hortolândia, Jogador: ARTHUR PACHECO BASTO -> Arthur Pacheco Basto
+ Artilharia - Clube: SE PALMEIRAS -> Palmeiras, Jogador: NATHAN MARTINS SANTANA -> Nathan Martins Santana
+ Artilharia - Clube: SANTOS FC -> Santos, Jogador: THÉO ASAFE OLIVEIRA MIRANDA -> Théo Asafe Oliveira Miranda
+ Artilharia - Clube: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga, Jogador: GABRIEL SHIGUEO PEREIRA IWAMOTO -> Gabriel Shigueo Pereira Iwamoto
+ Artilharia - Clube: C.A. YPIRANGA -> Ypiranga, Jogador: ARTHUR LIMA PUPINI -> Arthur Lima Pupini
+ Artilharia - Clube: C.A. YPIRANGA -> Ypiranga, Jogador: ALEC SANCHEZ FONSECA -> Alec Sanchez Fonseca
+ Artilharia - Clube: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Jogador: JOãO BARDUCHI MARQUES DE OLIVEIRA -> João Barduchi Marques De Oliveira
+ Artilharia - Clube: SÃO PAULO FC - A -> São Paulo, Jogador: VINíCIUS MACIEL DO NASCIMENTO -> Vinícius Maciel Do Nascimento
+ Artilharia - Clube: C.A. YPIRANGA -> Ypiranga, Jogador: DAVI MORAES CARRASCO -> Davi Moraes Carrasco
+ Artilharia - Clube: CAMISA 10 F.C. -> Camisa 10, Jogador: BERNARDO SILVA SOUZA DOS SANTOS -> Bernardo Silva Souza Dos Santos
+ Artilharia - Clube: S.E. ELITE ITAQUERENSE -> Elite, Jogador: WESLEY PEREIRA DE SOUSA -> Wesley Pereira De Sousa
+ Artilharia - Clube: SANTOS FC -> Santos, Jogador: JOãO PEDRO MARTINS BARAçAL PANARIELLO -> João Pedro Martins Baraçal Panariello
+ Artilharia - Clube: SE PALMEIRAS -> Palmeiras, Jogador: DIOGO CALEBE LEÃO DE MENDONÇA -> Diogo Calebe Leão De Mendonça
+ Artilharia - Clube: A.D. BATEBOLA -> Batebola, Jogador: GUILHERME DA SILVA MARQUES -> Guilherme Da Silva Marques
+ Artilharia - Clube: GREMETAL -> Gremetal, Jogador: ADRIANO APARECIDO FONSECA FILHO -> Adriano Aparecido Fonseca Filho
+ Artilharia - Clube: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Jogador: PEDRO HENRIQUE CARBONARI E SILVA -> Pedro Henrique Carbonari E Silva
+ Artilharia - Clube: SÃO PAULO FC - A -> São Paulo, Jogador: ARTHUR MELO ALEJANDRE DE MAGALHAES -> Arthur Melo Alejandre De Magalhaes
+ Artilharia - Clube: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Jogador: CHRISTOPHER PEREIRA SILVA -> Christopher Pereira Silva
+ Artilharia - Clube: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Jogador: MURILLO DEL COLSOPRANI -> Murillo Del Colsoprani
+ Artilharia - Clube: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Jogador: BERNARDO DUARTE PACHECO -> Bernardo Duarte Pacheco
+ Artilharia - Clube: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Jogador: GABRIEL HENRIQUE JACINTO DOS SANTOS -> Gabriel Henrique Jacinto Dos Santos
+ Artilharia - Clube: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé, Jogador: PEDRO CRUZ -> Pedro Cruz
+ Artilharia - Clube: SÃO PAULO FC - A -> São Paulo, Jogador: THIAGO SOUSA ARAúJO PINHEIRO -> Thiago Sousa Araújo Pinheiro
+ Artilharia - Clube: ASF/MAGNUS -> Magnus, Jogador: GABRIEL BATISTA VIEIRA PINTO -> Gabriel Batista Vieira Pinto
+ Artilharia - Clube: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga, Jogador: BRYAN CAMARA OLIVEIRA -> Bryan Camara Oliveira
+ Artilharia - Clube: C.A. JUVENTUS -> Juventus, Jogador: CAUA GUILHERME DE ANDRADE GAMA -> Caua Guilherme De Andrade Gama
+ Artilharia - Clube: CAMISA 10 F.C. -> Camisa 10, Jogador: DAVI LUCCA GUILHERME SANTOS -> Davi Lucca Guilherme Santos
+ Artilharia - Clube: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Jogador: THéO HENRIQUE TELES BISPO -> Théo Henrique Teles Bispo
+ Artilharia - Clube: GREMETAL -> Gremetal, Jogador: GUILHERME ABACHIONI TEIXEIRA -> Guilherme Abachioni Teixeira
+ Artilharia - Clube: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Jogador: PYETRO DA SILVA DE JESUS BARBOSA -> Pyetro Da Silva De Jesus Barbosa
+ Artilharia - Clube: TAUBATÉ FUTSAL -> Taubaté, Jogador: ROMEU JORGE DA SILVA -> Romeu Jorge Da Silva
+ Artilharia - Clube: A.D. SUZANO -> Suzano, Jogador: SAMUEL PIAZ GONçALVES -> Samuel Piaz Gonçalves
+ Artilharia - Clube: LAUSANNE PAULISTA FC - A -> Lausanne, Jogador: BENJAMIN DE CASTRO RODRIGUES -> Benjamin De Castro Rodrigues
+ Artilharia - Clube: LAUSANNE PAULISTA FC - A -> Lausanne, Jogador: ENRICO BASTOS GUIMARãES -> Enrico Bastos Guimarães
+ Artilharia - Clube: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé, Jogador: JOãO LUCCA CAIRES FERREIRA -> João Lucca Caires Ferreira
+ Artilharia - Clube: E.C. HORTOLANDIA -> Hortolândia, Jogador: KAYK WILDEN DA SILVA -> Kayk Wilden Da Silva
+ Artilharia - Clube: C.A. TABUCA JRS -> Tabuca, Jogador: THIAGO SILVA GUILGER -> Thiago Silva Guilger
+ Artilharia - Clube: CAMISA 10 F.C. -> Camisa 10, Jogador: BRENNO MARQUES VIEIRA -> Brenno Marques Vieira
+ Artilharia - Clube: A.D. BATEBOLA -> Batebola, Jogador: RHYAN SAMPAIO VIEIRA DE SANTANA -> Rhyan Sampaio Vieira De Santana
+ Artilharia - Clube: A.D. SUZANO -> Suzano, Jogador: OCTÁVIO LÚCIO PINA DA SILVA -> Octávio Lúcio Pina Da Silva
+ Artilharia - Clube: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Jogador: MURILO MENDES DOS SANTOS -> Murilo Mendes Dos Santos
+ Artilharia - Clube: S.E. ELITE ITAQUERENSE -> Elite, Jogador: FELIPE LUCAS ALCANTARA CAMARGO -> Felipe Lucas Alcantara Camargo
+ Artilharia - Clube: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Jogador: CAIO ALVES RODRIGUES -> Caio Alves Rodrigues
+ Artilharia - Clube: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga, Jogador: LORENZO MARCELINO RODRIGUES -> Lorenzo Marcelino Rodrigues
+ Artilharia - Clube: A.D. BATEBOLA -> Batebola, Jogador: ENZO BELO LIMA -> Enzo Belo Lima
+ Artilharia - Clube: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga, Jogador: DAVI DOS SANTOS CAVALCANTE -> Davi Dos Santos Cavalcante
+ Artilharia - Clube: A.D. BATEBOLA -> Batebola, Jogador: MIGUEL SILVA DO VALE -> Miguel Silva Do Vale
+ Artilharia - Clube: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Jogador: GUSTAVO MONTEIRO DE OLIVEIRA MOREIRA -> Gustavo Monteiro De Oliveira Moreira
+ Artilharia - Clube: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Jogador: MIGUEL DE ALENCAR SILVA -> Miguel De Alencar Silva
+ Artilharia - Clube: S.E. ELITE ITAQUERENSE -> Elite, Jogador: WILCOLIN CAMPOS OLIVEIRA -> Wilcolin Campos Oliveira
+ Artilharia - Clube: MARVEL -> Marvel, Jogador: EZEQUIEL SãO JOSE VIEIRA -> Ezequiel São Jose Vieira
+ Artilharia - Clube: A.D. BATEBOLA -> Batebola, Jogador: ARTHUR WERNECK BARROS -> Arthur Werneck Barros
+ Artilharia - Clube: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Jogador: LORENZO DE OLIVEIRA POSSEBON -> Lorenzo De Oliveira Possebon
+ Artilharia - Clube: C.A. YPIRANGA -> Ypiranga, Jogador: MATHEUS CAVALCANTE ARAUJO -> Matheus Cavalcante Araujo
+ Artilharia - Clube: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Jogador: CAUã EDUARDO POLACCI -> Cauã Eduardo Polacci
+ Artilharia - Clube: C.A. TABUCA JRS -> Tabuca, Jogador: SAMUEL DOS SANTOS FILGUEIRA -> Samuel Dos Santos Filgueira
+ Artilharia - Clube: GREMETAL -> Gremetal, Jogador: DAVI SILVA MEDEIROS DOS PASSOS -> Davi Silva Medeiros Dos Passos
+ Artilharia - Clube: LAUSANNE PAULISTA FC - A -> Lausanne, Jogador: RIAN LOUZEIRO NUNES -> Rian Louzeiro Nunes
+ Artilharia - Clube: TAUBATÉ FUTSAL -> Taubaté, Jogador: BENíCIO BARROS DE MENDONçA -> Benício Barros De Mendonça
+ Artilharia - Clube: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé, Jogador: MARCELO FREDERICO CHOLODIK DOS SANTOS -> Marcelo Frederico Cholodik Dos Santos
+ Artilharia - Clube: S.E. ELITE ITAQUERENSE -> Elite, Jogador: ROMEO D'ORAZIO -> Romeo D'orazio
+ Artilharia - Clube: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Jogador: DAVI BARALDI DA SILVA -> Davi Baraldi Da Silva
+ Artilharia - Clube: ASF/MAGNUS -> Magnus, Jogador: JUAN LUCCA RIBEIRO DOS SANTOS -> Juan Lucca Ribeiro Dos Santos
+ Artilharia - Clube: GREMETAL -> Gremetal, Jogador: MATEUS DE FRANçA SEITO GAMEIRO -> Mateus De França Seito Gameiro
+ Artilharia - Clube: C.A. JUVENTUS -> Juventus, Jogador: DANIEL VIANA FERREIRA -> Daniel Viana Ferreira
+ Artilharia - Clube: TAUBATÉ FUTSAL -> Taubaté, Jogador: DAVI PIERRE FERREIRA DOS SANTOS -> Davi Pierre Ferreira Dos Santos
+ Artilharia - Clube: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Jogador: DAVI DE BRITO SOALHEIRO -> Davi De Brito Soalheiro
+ Artilharia - Clube: SANTOS FC -> Santos, Jogador: GABRIEL ELIAS RIBEIRO SORRENTINO -> Gabriel Elias Ribeiro Sorrentino
+ Artilharia - Clube: E.C. HORTOLANDIA -> Hortolândia, Jogador: THóMAS POLI SANTOS -> Thómas Poli Santos
+ Artilharia - Clube: S.E. ELITE ITAQUERENSE -> Elite, Jogador: BENJAMIN RAMOS LOPES -> Benjamin Ramos Lopes
+ Artilharia - Clube: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Jogador: LUIGI SANTANA ROSSI -> Luigi Santana Rossi
+ Artilharia - Clube: S.E. ELITE ITAQUERENSE -> Elite, Jogador: PEDRO REBELLO PEREIRA -> Pedro Rebello Pereira
+ Artilharia - Clube: LAUSANNE PAULISTA FC - A -> Lausanne, Jogador: CARLOS EDUARDO TIETBOHL DE ANDRADE OLIVEIRA -> Carlos Eduardo Tietbohl De Andrade Oliveira
+ Artilharia - Clube: SÃO PAULO FC - A -> São Paulo, Jogador: LUIZ GUSTAVO DA SILVA AMORIM -> Luiz Gustavo Da Silva Amorim
+ Artilharia - Clube: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Jogador: PIETRO MUNIZ DE OLIVEIRA VISSES -> Pietro Muniz De Oliveira Visses
+ Artilharia - Clube: CAMISA 10 F.C. -> Camisa 10, Jogador: DAVI NUNES DOMINGUES -> Davi Nunes Domingues
+ Artilharia - Clube: C.A. TABUCA JRS -> Tabuca, Jogador: WELBERTY FERREIRA DE JESUS -> Welberty Ferreira De Jesus
+ Artilharia - Clube: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Jogador: BERNARDO OTAVIO PEREIRA DOS SANTOS -> Bernardo Otavio Pereira Dos Santos
+ Artilharia - Clube: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Jogador: LORENZO DOS SANTOS CAEIRO -> Lorenzo Dos Santos Caeiro
+ Artilharia - Clube: LAUSANNE PAULISTA FC - A -> Lausanne, Jogador: MATHEUS SILVA TECOLO -> Matheus Silva Tecolo
+ Artilharia - Clube: CAMISA 10 F.C. -> Camisa 10, Jogador: ARTHUR SANTANA BEZERRA -> Arthur Santana Bezerra
+ Artilharia - Clube: SE PALMEIRAS -> Palmeiras, Jogador: BERNARDO MARTELINI CAçADOR -> Bernardo Martelini Caçador
+ Artilharia - Clube: A.D. BATEBOLA -> Batebola, Jogador: YAGO RAVY RIBEIRO ALMEIDA -> Yago Ravy Ribeiro Almeida
+ Artilharia - Clube: ASF/MAGNUS -> Magnus, Jogador: PEDRO HENRIQUE CAMARGO DE OLIVEIRA SANTOS -> Pedro Henrique Camargo De Oliveira Santos
+ Artilharia - Clube: ASF/MAGNUS -> Magnus, Jogador: BERNARDO CAMPOS DE ALMEIDA -> Bernardo Campos De Almeida
+ Artilharia - Clube: CAMISA 10 F.C. -> Camisa 10, Jogador: ENZO ZIDANE SOARES FREIRE -> Enzo Zidane Soares Freire
+ Artilharia - Clube: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Jogador: HEITOR LEAL MARANTE -> Heitor Leal Marante
+ Artilharia - Clube: SÃO PAULO FC - A -> São Paulo, Jogador: RYAN CARDINALI LECHNER -> Ryan Cardinali Lechner
+ Artilharia - Clube: ASF/MAGNUS -> Magnus, Jogador: LEONARDO ESTANISLAU TRUJILLO GUIMARãES -> Leonardo Estanislau Trujillo Guimarães
+ Artilharia - Clube: LAUSANNE PAULISTA FC - A -> Lausanne, Jogador: GUILHERME MODRO -> Guilherme Modro
+ Artilharia - Clube: A.D. SUZANO -> Suzano, Jogador: WENDELL XAVIER DA SILVA -> Wendell Xavier Da Silva
+ Artilharia - Clube: A.D. BATEBOLA -> Batebola, Jogador: JOAQUIM MACAROFF DREGER -> Joaquim Macaroff Dreger
+ Artilharia - Clube: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Jogador: LUCCA ARAUJO CRUZ -> Lucca Araujo Cruz
+ Artilharia - Clube: A.D. SUZANO -> Suzano, Jogador: PEDRO MESSA ZANCHETTA -> Pedro Messa Zanchetta
+ Artilharia - Clube: LAUSANNE PAULISTA FC - A -> Lausanne, Jogador: LUCCA LUCIANO TOMAZO CRUZ -> Lucca Luciano Tomazo Cruz
+ Artilharia - Clube: CAMISA 10 F.C. -> Camisa 10, Jogador: LEO AKIRA PASCHOA SAKAI -> Leo Akira Paschoa Sakai
+ Artilharia - Clube: E.C. HORTOLANDIA -> Hortolândia, Jogador: JULLYO ROBSON ALBERTO -> Jullyo Robson Alberto
+ Artilharia - Clube: C.A. TABUCA JRS -> Tabuca, Jogador: LORENZO SILVA MARQUES -> Lorenzo Silva Marques
+ Artilharia - Clube: MARVEL -> Marvel, Jogador: LUCCA WINTER PAZZINI DE MORAIS -> Lucca Winter Pazzini De Morais
+ Artilharia - Clube: ASF/MAGNUS -> Magnus, Jogador: PEDRO CAMPOS RIBEIRO -> Pedro Campos Ribeiro
+ Artilharia - Clube: E.C. HORTOLANDIA -> Hortolândia, Jogador: ARTHUR BLEINAT NASCIMENTO -> Arthur Bleinat Nascimento
+ Artilharia - Clube: SÃO PAULO FC - A -> São Paulo, Jogador: KALEL SOUSA SANTANA -> Kalel Sousa Santana
+ Artilharia - Clube: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Jogador: ARTHUR MEIRELES MONTEIRO -> Arthur Meireles Monteiro
+ Artilharia - Clube: GREMETAL -> Gremetal, Jogador: LUCAS SALEM SANTOS -> Lucas Salem Santos
+ Artilharia - Clube: A.D. BATEBOLA -> Batebola, Jogador: ARTHUR LUIS RIBEIRO ALVES -> Arthur Luis Ribeiro Alves
+ Artilharia - Clube: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Jogador: DAVI MOURA SILVA -> Davi Moura Silva
+ Artilharia - Clube: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Jogador: PIERRE DOS SANTOS SABOJAN -> Pierre Dos Santos Sabojan
+ Artilharia - Clube: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Jogador: MATHEUS PAULINO BERTOLI -> Matheus Paulino Bertoli
+ Artilharia - Clube: SANTOS FC -> Santos, Jogador: MURILO DE OLIVEIRA RODRIGUES TAVARES -> Murilo De Oliveira Rodrigues Tavares
+ Artilharia - Clube: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Jogador: SAMUEL BUENO FERREIRA -> Samuel Bueno Ferreira
+ Artilharia - Clube: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Jogador: MATHEUS RODRIGUES ROCHA -> Matheus Rodrigues Rocha
+ Artilharia - Clube: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga, Jogador: ARTHUR LOBL DE ARAúJO -> Arthur Lobl De Araújo
+ Artilharia - Clube: CAMISA 10 F.C. -> Camisa 10, Jogador: FABRICIO ALBUQUERQUE VICHR -> Fabricio Albuquerque Vichr
+ Artilharia - Clube: S.E. ELITE ITAQUERENSE -> Elite, Jogador: Lorenzo Miguel Silva Barros -> Lorenzo Miguel Silva Barros
+ Artilharia - Clube: MARVEL -> Marvel, Jogador: LUIZ GUSTAVO SANTANA DOS SANTOS -> Luiz Gustavo Santana Dos Santos
+ Artilharia - Clube: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé, Jogador: LUCAS MéDA FIGUEIREDO DE OLIVEIRA -> Lucas Méda Figueiredo De Oliveira
+ Artilharia - Clube: MARVEL -> Marvel, Jogador: LUCCA DOMINGUES MOUTINHO -> Lucca Domingues Moutinho
+ Artilharia - Clube: TAUBATÉ FUTSAL -> Taubaté, Jogador: LEWIS HAMILTON ALVES DOS SANTOS TOLEDO SILVA -> Lewis Hamilton Alves Dos Santos Toledo Silva
+ Artilharia - Clube: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Jogador: LUCA PONINHA DUARTE PIMENTA -> Luca Poninha Duarte Pimenta
+ Artilharia - Clube: MARVEL -> Marvel, Jogador: JOãO RAFAEL OTERO DOS SANTOS -> João Rafael Otero Dos Santos
+ Artilharia - Clube: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga, Jogador: DAVI NASCIMENTO GARCIA -> Davi Nascimento Garcia
+ Artilharia - Clube: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé, Jogador: BERNARDO MADáZIO VELOSO -> Bernardo Madázio Veloso
+ Artilharia - Clube: TAUBATÉ FUTSAL -> Taubaté, Jogador: PEDRO BARROS NEVES -> Pedro Barros Neves
+ Artilharia - Clube: A.D. SUZANO -> Suzano, Jogador: YAGO FELIX DA SILVA -> Yago Felix Da Silva
+ Artilharia - Clube: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Jogador: BENICIO CAMPOS SANTOS -> Benicio Campos Santos
+ Artilharia - Clube: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Jogador: MIGUEL SILVA GUEDES -> Miguel Silva Guedes
+ Artilharia - Clube: C.A. TABUCA JRS -> Tabuca, Jogador: GUILHERME RIBEIRO MARIANO -> Guilherme Ribeiro Mariano
+ Artilharia - Clube: SÃO PAULO FC - A -> São Paulo, Jogador: ANTHONY BORTOLETTI -> Anthony Bortoletti
+ Artilharia - Clube: C.A. JUVENTUS -> Juventus, Jogador: KUAN HENRIQUE DE JESUS SANTOS SOUZA -> Kuan Henrique De Jesus Santos Souza
+ Artilharia - Clube: C.A. JUVENTUS -> Juventus, Jogador: GUILHERME MERLO DE SOUZA -> Guilherme Merlo De Souza
+ Artilharia - Clube: S.E. ELITE ITAQUERENSE -> Elite, Jogador: BRENNO FERREIRA TELES -> Brenno Ferreira Teles
+ Artilharia - Clube: SE PALMEIRAS -> Palmeiras, Jogador: KAUÃ BRITO DE SOUZA -> Kauã Brito De Souza
+ Artilharia - Clube: A.D. BATEBOLA -> Batebola, Jogador: RYCHARD HENRIQUE SOUZA FERNANDES -> Rychard Henrique Souza Fernandes
+ Artilharia - Clube: SÃO PAULO FC - A -> São Paulo, Jogador: LUCAS COELHO GARCIA DA SILVA -> Lucas Coelho Garcia Da Silva
+ Artilharia - Clube: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga, Jogador: LEONARDO DATOVO BASTOS DE MIRANDA -> Leonardo Datovo Bastos De Miranda
+ Artilharia - Clube: C.A. YPIRANGA -> Ypiranga, Jogador: KELLVIN DA TRINDADE FERRAZ -> Kellvin Da Trindade Ferraz
+ Artilharia - Clube: MARVEL -> Marvel, Jogador: JOAQUIM FERREIRA MATHIAS -> Joaquim Ferreira Mathias
+ Artilharia - Clube: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Jogador: GABRIEL CUNHA QUEIROZ -> Gabriel Cunha Queiroz
+ Artilharia - Clube: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Jogador: HEITOR ROCHA DE ANDRADE E SILVA -> Heitor Rocha De Andrade E Silva
+ Artilharia - Clube: LAUSANNE PAULISTA FC - A -> Lausanne, Jogador: LEONARDO MARTINS SAMPAIO -> Leonardo Martins Sampaio
+ Artilharia - Clube: C.A. YPIRANGA -> Ypiranga, Jogador: LEVY LEANDRO SOUZA DUARTE -> Levy Leandro Souza Duarte
+ Artilharia - Clube: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Jogador: ISAAC BATISTA MOTA -> Isaac Batista Mota
+ Artilharia - Clube: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Jogador: ENZO MELO LEMOS FERREIRA -> Enzo Melo Lemos Ferreira
+ Artilharia - Clube: C.A. TABUCA JRS -> Tabuca, Jogador: PEDRO DOS SANTOS BARBOSA -> Pedro Dos Santos Barbosa
+ Artilharia - Clube: TAUBATÉ FUTSAL -> Taubaté, Jogador: HENRICO LISBOA SANTOS -> Henrico Lisboa Santos
+ Artilharia - Clube: MARVEL -> Marvel, Jogador: GABRIEL FERNANDES DOS SANTOS -> Gabriel Fernandes Dos Santos
+ Artilharia - Clube: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Jogador: JOÃO LUCAS FOGAÇA BARBOSA -> João Lucas Fogaça Barbosa
+ Artilharia - Clube: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Jogador: BRENO AMADEU SEVERO MARCOS -> Breno Amadeu Severo Marcos
+ Artilharia - Clube: ASF/MAGNUS -> Magnus, Jogador: DAVI SILVA DE MORAES SANTOS -> Davi Silva De Moraes Santos
+ Artilharia - Clube: TAUBATÉ FUTSAL -> Taubaté, Jogador: DAVI RODRIGUES CARNEIRO -> Davi Rodrigues Carneiro
+ Artilharia - Clube: LAUSANNE PAULISTA FC - A -> Lausanne, Jogador: FELIPE AZEVEDO -> Felipe Azevedo
+ Artilharia - Clube: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Jogador: MURILO DA CUNHA MEDEIROS -> Murilo Da Cunha Medeiros
+ Artilharia - Clube: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Jogador: VICTOR ALVES GRANADO DE SOUZA -> Victor Alves Granado De Souza
+ Artilharia - Clube: C.A. YPIRANGA -> Ypiranga, Jogador: LEONARDO NOGUEIRA RIBEIRO -> Leonardo Nogueira Ribeiro
+ Artilharia - Clube: TAUBATÉ FUTSAL -> Taubaté, Jogador: ANTHONY VARGAS DA SILVA -> Anthony Vargas Da Silva
+ Artilharia - Clube: E.C. HORTOLANDIA -> Hortolândia, Jogador: DAVI CAVALINI MUNHOZ -> Davi Cavalini Munhoz
+ Artilharia - Clube: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Jogador: BERNARDO DOS SANTOS OLIVEIRA -> Bernardo Dos Santos Oliveira
+ Artilharia - Clube: A.D. BATEBOLA -> Batebola, Jogador: GABRIEL HENRIQUE CERQUEIRA DE OLIVEIRA -> Gabriel Henrique Cerqueira De Oliveira
+ Artilharia - Clube: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Jogador: ARTHUR LEONE DE MORAES -> Arthur Leone De Moraes
+ Artilharia - Clube: C.A. JUVENTUS -> Juventus, Jogador: PEDRO CORCETTI GOMES -> Pedro Corcetti Gomes
+ Artilharia - Clube: C.A. JUVENTUS -> Juventus, Jogador: JOÃO PEDRO OLIVEIRA DE LIMA FERREIRA -> João Pedro Oliveira De Lima Ferreira
+ Artilharia - Clube: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Jogador: GABRIEL LEMES RAMOS -> Gabriel Lemes Ramos
+ Artilharia - Clube: GREMETAL -> Gremetal, Jogador: GABRIEL ELIAS RABELO -> Gabriel Elias Rabelo
+ Artilharia - Clube: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé, Jogador: ENZO VIEIRA DOS SANTOS -> Enzo Vieira Dos Santos
+ Artilharia - Clube: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Jogador: LUCAS CARRILLO BRIZZI -> Lucas Carrillo Brizzi
+ Artilharia - Clube: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Jogador: CAIO GABRIEL SOARES OTSUJI -> Caio Gabriel Soares Otsuji
+ Artilharia - Clube: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Jogador: BERNARDO DE SOUSA RODRIGUES -> Bernardo De Sousa Rodrigues
+ Artilharia - Clube: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Jogador: LUCCA RISSARDO SORELLI -> Lucca Rissardo Sorelli
+ Artilharia - Clube: CAMISA 10 F.C. -> Camisa 10, Jogador: DIOGO ALBOLEDO REIS -> Diogo Alboledo Reis
+ Artilharia - Clube: E.C. HORTOLANDIA -> Hortolândia, Jogador: LEONARDO MONTEIRO FERREIRA -> Leonardo Monteiro Ferreira
+ Artilharia - Clube: C.A. TABUCA JRS -> Tabuca, Jogador: YURI DE OLIVEIRA SILVA -> Yuri De Oliveira Silva
+ Artilharia - Clube: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Jogador: LORENZO SOARES DOS SANTOS MARTINS -> Lorenzo Soares Dos Santos Martins
+ Artilharia - Clube: A.D. BATEBOLA -> Batebola, Jogador: RAPHAEL CARDOSO DE OLIVEIRA SOUZA -> Raphael Cardoso De Oliveira Souza
+ Artilharia - Clube: SÃO PAULO FC - A -> São Paulo, Jogador: LUCCA LIMA MACHADO -> Lucca Lima Machado
+ Artilharia - Clube: A.D. SUZANO -> Suzano, Jogador: MIGUEL NASCIMENTO SANTOS -> Miguel Nascimento Santos
+ Artilharia - Clube: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Jogador: MIGUEL SANTOS SILVA -> Miguel Santos Silva
+ Artilharia - Clube: C.A. TABUCA JRS -> Tabuca, Jogador: BERNARDO RICARDO DO CARMO -> Bernardo Ricardo Do Carmo
+ Artilharia - Clube: SE PALMEIRAS -> Palmeiras, Jogador: CAIQUE RUAS BAPTISTELLA -> Caique Ruas Baptistella
+ Artilharia - Clube: SÃO PAULO FC - A -> São Paulo, Jogador: JOAQUIM BELMONTE FERNANDES -> Joaquim Belmonte Fernandes
+ Artilharia - Clube: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Jogador: LEONARDO HOFFER DA COSTA CAMARGO DE OLIVEIRA -> Leonardo Hoffer Da Costa Camargo De Oliveira
+ Artilharia - Clube: ASF/MAGNUS -> Magnus, Jogador: MIGUEL DE VECHIO VIEIRA -> Miguel De Vechio Vieira
+ Dados convertidos para artilharia: Array(210)
+ Populando filtros
+ Filtro clube-estatisticas populado com valores: Array(24)
+ Falha ao encontrar jogador-estatisticas. DOM carregado: complete
+(anônimo) @ script.js:435
+ Seletores disponíveis: Array(7)
+ Trocando para aba estatisticas
+ Exibindo dados da Estatísticas
+ Erro limpo
+ Aplicando filtros para artilharia: Object
+ Dados filtrados e ordenados por Index: Array(209)
+script.js:29 Uncaught (in promise) 
+ Retry falhou para jogador-estatisticas
+(anônimo) @ script.js:444
+ Populando filtros globais
+ Filtros globais carregados do cache: Object
+ Buscando divisões: https://fpfsdoispontozero-default-rtdb.firebaseio.com/jogos/2025.json?cacheBuster=1750966080202
+ Dados brutos de /jogos/2025: Object
+ Divisões deduplicadas e ordenadas: Array(2)
+ Buscando categorias para divisão: https://fpfsdoispontozero-default-rtdb.firebaseio.com/jogos/2025/A1.json?cacheBuster=1750966080629
+ Categorias ordenadas: Array(4)
+ Label de seleção atualizado: Selecionado: A1, Sub-9
+ Label de seleção atualizado: Selecionado: A1, Sub-9
+ Filtros globais aplicados: Object
+ Iniciando requisição ao Firebase para jogos: https://fpfsdoispontozero-default-rtdb.firebaseio.com/jogos/2025/A1/Sub-9/2025_1.json?cacheBuster=1750966084554
+ Dados brutos de https://fpfsdoispontozero-default-rtdb.firebaseio.com/jogos/2025/A1/Sub-9/2025_1.json?cacheBuster=1750966084554: null
+ Tentando fallback para jogos: https://fpfsdoispontozero-default-rtdb.firebaseio.com/jogos/2025/A1/Sub-9.json?cacheBuster=1750966084740
+ Dados brutos de fallback https://fpfsdoispontozero-default-rtdb.firebaseio.com/jogos/2025/A1/Sub-9.json?cacheBuster=1750966084740: Object
+ Jogos - Mandante: A.D. SUZANO -> Suzano, Visitante: SANTOS FC -> Santos, Ginásio: GINÁSIO DO SESC - SUZANO -> Ginásio Do Sesc - Suzano
+ Jogos - Mandante: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Visitante: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga, Ginásio: GINÁSIO JOAQUIM CAMBAÚVA RABELLO -> Ginásio Joaquim Cambaúva Rabello
+ Jogos - Mandante: LAUSANNE PAULISTA FC - A -> Lausanne, Visitante: S.E. ELITE ITAQUERENSE -> Elite, Ginásio: GINÁSIO CYRO GILBERTO SAVOY -> Ginásio Cyro Gilberto Savoy
+ Jogos - Mandante: E.C. HORTOLANDIA -> Hortolândia, Visitante: C.A. TABUCA JRS -> Tabuca, Ginásio: GINÁSIO MUNICIPAL VICTOR SAVALA -> Ginásio Municipal Victor Savala
+ Jogos - Mandante: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Visitante: SE PALMEIRAS -> Palmeiras, Ginásio: GINÁSIO PRESIDENTE CIRO II -> Ginásio Presidente Ciro Ii
+ Jogos - Mandante: GREMETAL -> Gremetal, Visitante: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Ginásio: GINÁSIO DO JABAQUARA -> Ginásio Do Jabaquara
+ Jogos - Mandante: SANTOS FC -> Santos, Visitante: MARVEL -> Marvel, Ginásio: GINÁSIO DO JABAQUARA -> Ginásio Do Jabaquara
+ Jogos - Mandante: A.D. BATEBOLA -> Batebola, Visitante: CAMISA 10 F.C. -> Camisa 10, Ginásio: GINÁSIO ARENA BATEBOLA SPORTS -> Ginásio Arena Batebola Sports
+ Jogos - Mandante: S.E. ELITE ITAQUERENSE -> Elite, Visitante: C.A. JUVENTUS -> Juventus, Ginásio: GINÁSIO ELITE ITAQUERENSE -> Ginásio Elite Itaquerense
+ Jogos - Mandante: A.D. SUZANO -> Suzano, Visitante: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga, Ginásio: GINÁSIO JOAQUIM CAMBAÚVA RABELLO -> Ginásio Joaquim Cambaúva Rabello
+ Jogos - Mandante: TAUBATÉ FUTSAL -> Taubaté, Visitante: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Ginásio: GINÁSIO DE ESPORTES VILA APARECIDA -> Ginásio De Esportes Vila Aparecida
+ Jogos - Mandante: C.A. TABUCA JRS -> Tabuca, Visitante: A.D. SUZANO -> Suzano, Ginásio: GINÁSIO CIE - PIETRA MEDEIROS -> Ginásio Cie - Pietra Medeiros
+ Jogos - Mandante: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga, Visitante: A.D. BATEBOLA -> Batebola, Ginásio: GINÁSIO JOAQUIM CAMBAÚVA RABELLO -> Ginásio Joaquim Cambaúva Rabello
+ Jogos - Mandante: SE PALMEIRAS -> Palmeiras, Visitante: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Ginásio: GINÁSIO ARENA PALESTRA ITÁLIA -> Ginásio Arena Palestra Itália
+ Jogos - Mandante: CAMISA 10 F.C. -> Camisa 10, Visitante: GREMETAL -> Gremetal, Ginásio: GINÁSIO POLIESPORTIVO ARMANDO FREDIANI -> Ginásio Poliesportivo Armando Frediani
+ Jogos - Mandante: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Visitante: LAUSANNE PAULISTA FC - A -> Lausanne, Ginásio: GINÁSIO CLUBE MESC -> Ginásio Clube Mesc
+ Jogos - Mandante: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Visitante: ASF/MAGNUS -> Magnus, Ginásio: GINÁSIO SEBASTIÃO RAFAEL DA SILVA - GEODÉSICO -> Ginásio Sebastião Rafael Da Silva - Geodésico
+ Jogos - Mandante: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Visitante: SÃO PAULO FC - A -> São Paulo, Ginásio: GINÁSIO DR. ANTONIO LEME NUNES GALVÃO -> Ginásio Dr. Antonio Leme Nunes Galvão
+ Jogos - Mandante: C.A. YPIRANGA -> Ypiranga, Visitante: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Ginásio: GINÁSIO PRESIDENTE CIRO II -> Ginásio Presidente Ciro Ii
+ Jogos - Mandante: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé, Visitante: E.C. HORTOLANDIA -> Hortolândia, Ginásio: GINÁSIO ACRE CLUBE -> Ginásio Acre Clube
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO JUVENTUS -> Ginásio Juventus
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO DO SESC - SUZANO -> Ginásio Do Sesc - Suzano
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINASIO ARENA UNILUS -> Ginasio Arena Unilus
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: COMPLEXO ESPORTIVO MORADA DO SOL -> Complexo Esportivo Morada Do Sol
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO ARENA SOROCABA -> Ginásio Arena Sorocaba
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO DO JABAQUARA -> Ginásio Do Jabaquara
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO JOAQUIM CAMBAÚVA RABELLO -> Ginásio Joaquim Cambaúva Rabello
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO PRESIDENTE CIRO II -> Ginásio Presidente Ciro Ii
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO WLAMIR MARQUES -> Ginásio Wlamir Marques
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO ARENA BATEBOLA SPORTS -> Ginásio Arena Batebola Sports
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO PRESIDENTE CIRO II -> Ginásio Presidente Ciro Ii
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO CYRO GILBERTO SAVOY -> Ginásio Cyro Gilberto Savoy
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINASIO MUNICIPAL DURVAL GONÇALVES -> Ginasio Municipal Durval Gonçalves
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO DO JABAQUARA -> Ginásio Do Jabaquara
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO DR. ANTONIO LEME NUNES GALVÃO -> Ginásio Dr. Antonio Leme Nunes Galvão
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO PRESIDENTE CIRO II -> Ginásio Presidente Ciro Ii
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO ELITE ITAQUERENSE -> Ginásio Elite Itaquerense
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO ARENA PALESTRA ITÁLIA -> Ginásio Arena Palestra Itália
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO DE ESPORTES VILA APARECIDA -> Ginásio De Esportes Vila Aparecida
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO CIE - PIETRA MEDEIROS -> Ginásio Cie - Pietra Medeiros
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO POLIESPORTIVO ARMANDO FREDIANI -> Ginásio Poliesportivo Armando Frediani
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO CLUBE MESC -> Ginásio Clube Mesc
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO ACRE CLUBE -> Ginásio Acre Clube
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: A DEFINIR -> A Definir
+ Jogos - Mandante:  -> , Visitante:  -> , Ginásio: GINÁSIO SEBASTIÃO RAFAEL DA SILVA - GEODÉSICO -> Ginásio Sebastião Rafael Da Silva - Geodésico
+ Jogos - Mandante: TAUBATÉ FUTSAL -> Taubaté, Visitante: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé, Ginásio: GINÁSIO DE ESPORTES VILA APARECIDA -> Ginásio De Esportes Vila Aparecida
+ Jogos - Mandante: MARVEL -> Marvel, Visitante: ASF/MAGNUS -> Magnus, Ginásio: GINASIO ARENA UNILUS -> Ginasio Arena Unilus
+ Jogos - Mandante: C.A. JUVENTUS -> Juventus, Visitante: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga, Ginásio: GINÁSIO JUVENTUS -> Ginásio Juventus
+ Jogos - Mandante: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Visitante: SÃO PAULO FC - A -> São Paulo, Ginásio: GINÁSIO WLAMIR MARQUES -> Ginásio Wlamir Marques
+ Jogos - Mandante: SE PALMEIRAS -> Palmeiras, Visitante: S.E. ELITE ITAQUERENSE -> Elite, Ginásio: GINÁSIO ARENA PALESTRA ITÁLIA -> Ginásio Arena Palestra Itália
+ Jogos - Mandante: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Visitante: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Ginásio: COMPLEXO ESPORTIVO MORADA DO SOL -> Complexo Esportivo Morada Do Sol
+ Jogos - Mandante: SANTOS FC -> Santos, Visitante: C.A. TABUCA JRS -> Tabuca, Ginásio: GINÁSIO DO JABAQUARA -> Ginásio Do Jabaquara
+ Jogos - Mandante: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Visitante: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Ginásio: GINÁSIO PRESIDENTE CIRO I -> Ginásio Presidente Ciro I
+ Jogos - Mandante: E.C. HORTOLANDIA -> Hortolândia, Visitante: LAUSANNE PAULISTA FC - A -> Lausanne, Ginásio: GINÁSIO MUNICIPAL VICTOR SAVALA -> Ginásio Municipal Victor Savala
+ Jogos - Mandante: C.A. YPIRANGA -> Ypiranga, Visitante: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Ginásio: GINÁSIO CHEIDT JAFET -> Ginásio Cheidt Jafet
+ Jogos - Mandante: SÃO PAULO FC - A -> São Paulo, Visitante: MARVEL -> Marvel, Ginásio: GINÁSIO DR. ANTONIO LEME NUNES GALVÃO -> Ginásio Dr. Antonio Leme Nunes Galvão
+ Jogos - Mandante: S.E. ELITE ITAQUERENSE -> Elite, Visitante: C.A. YPIRANGA -> Ypiranga, Ginásio: GINÁSIO ELITE ITAQUERENSE -> Ginásio Elite Itaquerense
+ Jogos - Mandante: CAMISA 10 F.C. -> Camisa 10, Visitante: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Ginásio: GINÁSIO POLIESPORTIVO ARMANDO FREDIANI -> Ginásio Poliesportivo Armando Frediani
+ Jogos - Mandante: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga, Visitante: SANTOS FC -> Santos, Ginásio: GINÁSIO JOAQUIM CAMBAÚVA RABELLO -> Ginásio Joaquim Cambaúva Rabello
+ Jogos - Mandante: GREMETAL -> Gremetal, Visitante: E.C. HORTOLANDIA -> Hortolândia, Ginásio: GINÁSIO DO JABAQUARA -> Ginásio Do Jabaquara
+ Jogos - Mandante: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé, Visitante: SE PALMEIRAS -> Palmeiras, Ginásio: GINÁSIO ACRE CLUBE -> Ginásio Acre Clube
+ Jogos - Mandante: ASF/MAGNUS -> Magnus, Visitante: A.D. SUZANO -> Suzano, Ginásio: GINÁSIO EDSON ANTÃO DE SOUZA -> Ginásio Edson Antão De Souza
+ Jogos - Mandante: LAUSANNE PAULISTA FC - A -> Lausanne, Visitante: C.A. JUVENTUS -> Juventus, Ginásio: GINÁSIO CYRO GILBERTO SAVOY -> Ginásio Cyro Gilberto Savoy
+ Jogos - Mandante: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Visitante: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Ginásio: GINÁSIO SEBASTIÃO RAFAEL DA SILVA - GEODÉSICO -> Ginásio Sebastião Rafael Da Silva - Geodésico
+ Jogos - Mandante: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Visitante: A.D. BATEBOLA -> Batebola, Ginásio: GINÁSIO CLUBE MESC -> Ginásio Clube Mesc
+ Jogos - Mandante: C.A. TABUCA JRS -> Tabuca, Visitante: TAUBATÉ FUTSAL -> Taubaté, Ginásio: GINÁSIO CIE - PIETRA MEDEIROS -> Ginásio Cie - Pietra Medeiros
+ Jogos - Mandante: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Visitante: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Ginásio: GINÁSIO WLAMIR MARQUES -> Ginásio Wlamir Marques
+ Jogos - Mandante: C.A. JUVENTUS -> Juventus, Visitante: GREMETAL -> Gremetal, Ginásio: GINÁSIO JUVENTUS -> Ginásio Juventus
+ Jogos - Mandante: MARVEL -> Marvel, Visitante: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Ginásio: GINASIO ARENA UNILUS -> Ginasio Arena Unilus
+ Jogos - Mandante: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Visitante: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Ginásio: GINÁSIO PRESIDENTE CIRO I -> Ginásio Presidente Ciro I
+ Jogos - Mandante: A.D. SUZANO -> Suzano, Visitante: SÃO PAULO FC - A -> São Paulo, Ginásio: GINÁSIO DO SESC - SUZANO -> Ginásio Do Sesc - Suzano
+ Jogos - Mandante: TAUBATÉ FUTSAL -> Taubaté, Visitante: SANTOS FC -> Santos, Ginásio: GINÁSIO DE ESPORTES VILA APARECIDA -> Ginásio De Esportes Vila Aparecida
+ Jogos - Mandante: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Visitante: CAMISA 10 F.C. -> Camisa 10, Ginásio: COMPLEXO ESPORTIVO MORADA DO SOL -> Complexo Esportivo Morada Do Sol
+ Jogos - Mandante: C.A. YPIRANGA -> Ypiranga, Visitante: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé, Ginásio: GINÁSIO CHEIDT JAFET -> Ginásio Cheidt Jafet
+ Jogos - Mandante: E.C. HORTOLANDIA -> Hortolândia, Visitante: ASF/MAGNUS -> Magnus, Ginásio: GINÁSIO MUNICIPAL VICTOR SAVALA -> Ginásio Municipal Victor Savala
+ Jogos - Mandante: LAUSANNE PAULISTA FC - A -> Lausanne, Visitante: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga, Ginásio: GINÁSIO CYRO GILBERTO SAVOY -> Ginásio Cyro Gilberto Savoy
+ Jogos - Mandante: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Visitante: ASF/MAGNUS -> Magnus, Ginásio: COMPLEXO ESPORTIVO MORADA DO SOL -> Complexo Esportivo Morada Do Sol
+ Jogos - Mandante: A.D. SUZANO -> Suzano, Visitante: C.A. JUVENTUS -> Juventus, Ginásio: GINÁSIO DO SESC - SUZANO -> Ginásio Do Sesc - Suzano
+ Jogos - Mandante: MARVEL -> Marvel, Visitante: LAUSANNE PAULISTA FC - A -> Lausanne, Ginásio: GINASIO ARENA UNILUS -> Ginasio Arena Unilus
+ Jogos - Mandante: TAUBATÉ FUTSAL -> Taubaté, Visitante: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Ginásio: GINÁSIO DE ESPORTES VILA APARECIDA -> Ginásio De Esportes Vila Aparecida
+ Jogos - Mandante: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Visitante: GREMETAL -> Gremetal, Ginásio: GINÁSIO WLAMIR MARQUES -> Ginásio Wlamir Marques
+ Jogos - Mandante: SANTOS FC -> Santos, Visitante: S.E. ELITE ITAQUERENSE -> Elite, Ginásio: GINÁSIO DO JABAQUARA -> Ginásio Do Jabaquara
+ Jogos - Mandante: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga, Visitante: E.C. HORTOLANDIA -> Hortolândia, Ginásio: GINÁSIO JOAQUIM CAMBAÚVA RABELLO -> Ginásio Joaquim Cambaúva Rabello
+ Jogos - Mandante: C.A. TABUCA JRS -> Tabuca, Visitante: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé, Ginásio: GINÁSIO CIE - PIETRA MEDEIROS -> Ginásio Cie - Pietra Medeiros
+ Jogos - Mandante: A.D. BATEBOLA -> Batebola, Visitante: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Ginásio: GINÁSIO ARENA BATEBOLA SPORTS -> Ginásio Arena Batebola Sports
+ Jogos - Mandante: C.A. YPIRANGA -> Ypiranga, Visitante: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Ginásio: GINÁSIO CHEIDT JAFET -> Ginásio Cheidt Jafet
+ Jogos - Mandante: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Visitante: SÃO PAULO FC - A -> São Paulo, Ginásio: GINÁSIO PRESIDENTE CIRO II -> Ginásio Presidente Ciro Ii
+ Jogos - Mandante: S.E. ELITE ITAQUERENSE -> Elite, Visitante: TAUBATÉ FUTSAL -> Taubaté, Ginásio: GINÁSIO ELITE ITAQUERENSE -> Ginásio Elite Itaquerense
+ Jogos - Mandante: ASF/MAGNUS -> Magnus, Visitante: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Ginásio: GINÁSIO ARENA SOROCABA -> Ginásio Arena Sorocaba
+ Jogos - Mandante: SÃO PAULO FC - A -> São Paulo, Visitante: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Ginásio: GINÁSIO DR. ANTONIO LEME NUNES GALVÃO -> Ginásio Dr. Antonio Leme Nunes Galvão
+ Jogos - Mandante: GREMETAL -> Gremetal, Visitante: MARVEL -> Marvel, Ginásio: GINÁSIO DO JABAQUARA -> Ginásio Do Jabaquara
+ Jogos - Mandante: C.A. JUVENTUS -> Juventus, Visitante: E.C. HORTOLANDIA -> Hortolândia, Ginásio: GINÁSIO JUVENTUS -> Ginásio Juventus
+ Jogos - Mandante: CAMISA 10 F.C. -> Camisa 10, Visitante: C.A. YPIRANGA -> Ypiranga, Ginásio: GINÁSIO POLIESPORTIVO ARMANDO FREDIANI -> Ginásio Poliesportivo Armando Frediani
+ Jogos - Mandante: C.A. TABUCA JRS -> Tabuca, Visitante: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga, Ginásio: GINÁSIO CIE - PIETRA MEDEIROS -> Ginásio Cie - Pietra Medeiros
+ Jogos - Mandante: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé, Visitante: SANTOS FC -> Santos, Ginásio: GINÁSIO ACRE CLUBE -> Ginásio Acre Clube
+ Jogos - Mandante: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Visitante: SE PALMEIRAS -> Palmeiras, Ginásio: GINÁSIO CLUBE MESC -> Ginásio Clube Mesc
+ Jogos - Mandante: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Visitante: A.D. BATEBOLA -> Batebola, Ginásio: GINÁSIO SEBASTIÃO RAFAEL DA SILVA - GEODÉSICO -> Ginásio Sebastião Rafael Da Silva - Geodésico
+ Jogos - Mandante: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Visitante: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Ginásio: GINÁSIO DO SESC - SUZANO -> Ginásio Do Sesc - Suzano
+ Jogos - Mandante: LAUSANNE PAULISTA FC - A -> Lausanne, Visitante: A.D. SUZANO -> Suzano, Ginásio: GINÁSIO CYRO GILBERTO SAVOY -> Ginásio Cyro Gilberto Savoy
+ Jogos - Mandante: A.D. SUZANO -> Suzano, Visitante: MARVEL -> Marvel, Ginásio: GINÁSIO DO SESC - SUZANO -> Ginásio Do Sesc - Suzano
+ Jogos - Mandante: SE PALMEIRAS -> Palmeiras, Visitante: C.A. TABUCA JRS -> Tabuca, Ginásio: GINÁSIO ARENA PALESTRA ITÁLIA -> Ginásio Arena Palestra Itália
+ Jogos - Mandante: GREMETAL -> Gremetal, Visitante: A.D. BATEBOLA -> Batebola, Ginásio: GINÁSIO DO JABAQUARA -> Ginásio Do Jabaquara
+ Jogos - Mandante: ASF/MAGNUS -> Magnus, Visitante: C.A. YPIRANGA -> Ypiranga, Ginásio: GINÁSIO ARENA SOROCABA -> Ginásio Arena Sorocaba
+ Jogos - Mandante: A.D. SUZANO -> Suzano, Visitante: GREMETAL -> Gremetal, Ginásio: GINÁSIO DO SESC - SUZANO -> Ginásio Do Sesc - Suzano
+ Jogos - Mandante: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Visitante: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé, Ginásio: GINÁSIO CLUBE MESC -> Ginásio Clube Mesc
+ Jogos - Mandante: CAMISA 10 F.C. -> Camisa 10, Visitante: C.A. TABUCA JRS -> Tabuca, Ginásio: GINÁSIO POLIESPORTIVO ARMANDO FREDIANI -> Ginásio Poliesportivo Armando Frediani
+ Jogos - Mandante: SÃO PAULO FC - A -> São Paulo, Visitante: SE PALMEIRAS -> Palmeiras, Ginásio: GINÁSIO DR. ANTONIO LEME NUNES GALVÃO -> Ginásio Dr. Antonio Leme Nunes Galvão
+ Jogos - Mandante: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga, Visitante: S.E. ELITE ITAQUERENSE -> Elite, Ginásio: GINÁSIO JOAQUIM CAMBAÚVA RABELLO -> Ginásio Joaquim Cambaúva Rabello
+ Jogos - Mandante: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Visitante: TAUBATÉ FUTSAL -> Taubaté, Ginásio: GINÁSIO DO SESC - SUZANO -> Ginásio Do Sesc - Suzano
+ Jogos - Mandante: A.D. BATEBOLA -> Batebola, Visitante: S.E. ELITE ITAQUERENSE -> Elite, Ginásio: GINÁSIO ARENA BATEBOLA SPORTS -> Ginásio Arena Batebola Sports
+ Jogos - Mandante: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Visitante: SANTOS FC -> Santos, Ginásio: GINÁSIO POLIESPORTIVO DOMINGOS PITERI -> Ginásio Poliesportivo Domingos Piteri
+ Jogos - Mandante: LAUSANNE PAULISTA FC - A -> Lausanne, Visitante: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Ginásio: GINÁSIO CYRO GILBERTO SAVOY -> Ginásio Cyro Gilberto Savoy
+ Jogos - Mandante: E.C. HORTOLANDIA -> Hortolândia, Visitante: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Ginásio: GINÁSIO MUNICIPAL VICTOR SAVALA -> Ginásio Municipal Victor Savala
+ Jogos - Mandante: SE PALMEIRAS -> Palmeiras, Visitante: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Ginásio: GINÁSIO ARENA PALESTRA ITÁLIA -> Ginásio Arena Palestra Itália
+ Jogos - Mandante: MARVEL -> Marvel, Visitante: E.C. HORTOLANDIA -> Hortolândia, Ginásio: GINASIO ARENA UNILUS -> Ginasio Arena Unilus
+ Jogos - Mandante: TAUBATÉ FUTSAL -> Taubaté, Visitante: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Ginásio: GINÁSIO DE ESPORTES VILA APARECIDA -> Ginásio De Esportes Vila Aparecida
+ Jogos - Mandante: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Visitante: LAUSANNE PAULISTA FC - A -> Lausanne, Ginásio: COMPLEXO ESPORTIVO MORADA DO SOL -> Complexo Esportivo Morada Do Sol
+ Jogos - Mandante: SANTOS FC -> Santos, Visitante: CAMISA 10 F.C. -> Camisa 10, Ginásio: GINÁSIO DO JABAQUARA -> Ginásio Do Jabaquara
+ Jogos - Mandante: C.A. YPIRANGA -> Ypiranga, Visitante: SÃO PAULO FC - A -> São Paulo, Ginásio: GINÁSIO CHEIDT JAFET -> Ginásio Cheidt Jafet
+ Jogos - Mandante: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé, Visitante: S.E. ELITE ITAQUERENSE -> Elite, Ginásio: GINÁSIO ACRE CLUBE -> Ginásio Acre Clube
+ Jogos - Mandante: A.D. BATEBOLA -> Batebola, Visitante: ASF/MAGNUS -> Magnus, Ginásio: GINÁSIO ARENA BATEBOLA SPORTS -> Ginásio Arena Batebola Sports
+ Jogos - Mandante: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Visitante: C.A. JUVENTUS -> Juventus, Ginásio: GINÁSIO WLAMIR MARQUES -> Ginásio Wlamir Marques
+ Jogos - Mandante: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Visitante: GREMETAL -> Gremetal, Ginásio: GINÁSIO PRESIDENTE CIRO II -> Ginásio Presidente Ciro Ii
+ Jogos - Mandante: C.A. TABUCA JRS -> Tabuca, Visitante: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Ginásio: GINÁSIO CIE - PIETRA MEDEIROS -> Ginásio Cie - Pietra Medeiros
+ Jogos - Mandante: GREMETAL -> Gremetal, Visitante: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Ginásio: GINÁSIO DO JABAQUARA -> Ginásio Do Jabaquara
+ Jogos - Mandante: C.A. JUVENTUS -> Juventus, Visitante: MARVEL -> Marvel, Ginásio: GINÁSIO JUVENTUS -> Ginásio Juventus
+ Jogos - Mandante: SÃO PAULO FC - A -> São Paulo, Visitante: A.D. BATEBOLA -> Batebola, Ginásio: GINÁSIO DR. ANTONIO LEME NUNES GALVÃO -> Ginásio Dr. Antonio Leme Nunes Galvão
+ Jogos - Mandante: ASF/MAGNUS -> Magnus, Visitante: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Ginásio: GINÁSIO ARENA SOROCABA -> Ginásio Arena Sorocaba
+ Jogos - Mandante: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Visitante: SANTOS FC -> Santos, Ginásio: GINÁSIO CLUBE MESC -> Ginásio Clube Mesc
+ Jogos - Mandante: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga, Visitante: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé, Ginásio: GINÁSIO JOAQUIM CAMBAÚVA RABELLO -> Ginásio Joaquim Cambaúva Rabello
+ Jogos - Mandante: CAMISA 10 F.C. -> Camisa 10, Visitante: TAUBATÉ FUTSAL -> Taubaté, Ginásio: GINÁSIO POLIESPORTIVO ARMANDO FREDIANI -> Ginásio Poliesportivo Armando Frediani
+ Jogos - Mandante: S.E. ELITE ITAQUERENSE -> Elite, Visitante: C.A. TABUCA JRS -> Tabuca, Ginásio: GINÁSIO ELITE ITAQUERENSE -> Ginásio Elite Itaquerense
+ Jogos - Mandante: E.C. HORTOLANDIA -> Hortolândia, Visitante: A.D. SUZANO -> Suzano, Ginásio: GINASIO MUNICIPAL DURVAL GONÇALVES -> Ginasio Municipal Durval Gonçalves
+ Jogos - Mandante: LAUSANNE PAULISTA FC - A -> Lausanne, Visitante: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Ginásio: GINÁSIO CYRO GILBERTO SAVOY -> Ginásio Cyro Gilberto Savoy
+ Jogos - Mandante: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Visitante: SE PALMEIRAS -> Palmeiras, Ginásio: GINÁSIO SEBASTIÃO RAFAEL DA SILVA - GEODÉSICO -> Ginásio Sebastião Rafael Da Silva - Geodésico
+ Jogos - Mandante: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Visitante: C.A. YPIRANGA -> Ypiranga, Ginásio: GINÁSIO PRESIDENTE CIRO II -> Ginásio Presidente Ciro Ii
+ Jogos - Mandante: C.A. YPIRANGA -> Ypiranga, Visitante: GREMETAL -> Gremetal, Ginásio: GINÁSIO PRESIDENTE CIRO I -> Ginásio Presidente Ciro I
+ Jogos - Mandante: TAUBATÉ FUTSAL -> Taubaté, Visitante: SÃO PAULO FC - A -> São Paulo, Ginásio: GINÁSIO DE ESPORTES VILA APARECIDA -> Ginásio De Esportes Vila Aparecida
+ Jogos - Mandante: SE PALMEIRAS -> Palmeiras, Visitante: ASF/MAGNUS -> Magnus, Ginásio: GINÁSIO ARENA PALESTRA ITÁLIA -> Ginásio Arena Palestra Itália
+ Jogos - Mandante: SANTOS FC -> Santos, Visitante: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Ginásio: GINÁSIO DO JABAQUARA -> Ginásio Do Jabaquara
+ Jogos - Mandante: S.E. ELITE ITAQUERENSE -> Elite, Visitante: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Ginásio: GINÁSIO ELITE ITAQUERENSE -> Ginásio Elite Itaquerense
+ Jogos - Mandante: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Visitante: C.A. JUVENTUS -> Juventus, Ginásio: GINÁSIO C.R.E. FUNDAÇÃO -> Ginásio C.r.e. Fundação
+ Jogos - Mandante: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga, Visitante: MARVEL -> Marvel, Ginásio: GINÁSIO JOAQUIM CAMBAÚVA RABELLO -> Ginásio Joaquim Cambaúva Rabello
+ Jogos - Mandante: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Visitante: A.D. SUZANO -> Suzano, Ginásio: GINÁSIO WLAMIR MARQUES -> Ginásio Wlamir Marques
+ Jogos - Mandante: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Visitante: E.C. HORTOLANDIA -> Hortolândia, Ginásio: COMPLEXO ESPORTIVO MORADA DO SOL -> Complexo Esportivo Morada Do Sol
+ Jogos - Mandante: C.A. TABUCA JRS -> Tabuca, Visitante: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Ginásio: GINÁSIO CIE - PIETRA MEDEIROS -> Ginásio Cie - Pietra Medeiros
+ Jogos - Mandante: C.A. JUVENTUS -> Juventus, Visitante: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Ginásio: GINÁSIO JUVENTUS -> Ginásio Juventus
+ Jogos - Mandante: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé, Visitante: CAMISA 10 F.C. -> Camisa 10, Ginásio: GINÁSIO ACRE CLUBE -> Ginásio Acre Clube
+ Jogos - Mandante: A.D. BATEBOLA -> Batebola, Visitante: LAUSANNE PAULISTA FC - A -> Lausanne, Ginásio: GINÁSIO ARENA BATEBOLA SPORTS -> Ginásio Arena Batebola Sports
+ Jogos - Mandante: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Visitante: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Ginásio: GINÁSIO PRESIDENTE CIRO II -> Ginásio Presidente Ciro Ii
+ Jogos - Mandante: ASF/MAGNUS -> Magnus, Visitante: C.A. TABUCA JRS -> Tabuca, Ginásio: GINÁSIO ARENA SOROCABA -> Ginásio Arena Sorocaba
+ Jogos - Mandante: C.A. JUVENTUS -> Juventus, Visitante: SE PALMEIRAS -> Palmeiras, Ginásio: GINÁSIO JUVENTUS -> Ginásio Juventus
+ Jogos - Mandante: A.D. SUZANO -> Suzano, Visitante: A.D. BATEBOLA -> Batebola, Ginásio: GINÁSIO DO SESC - SUZANO -> Ginásio Do Sesc - Suzano
+ Jogos - Mandante: GREMETAL -> Gremetal, Visitante: SANTOS FC -> Santos, Ginásio: GINÁSIO DO JABAQUARA -> Ginásio Do Jabaquara
+ Jogos - Mandante: SÃO PAULO FC - A -> São Paulo, Visitante: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé, Ginásio: GINÁSIO DR. ANTONIO LEME NUNES GALVÃO -> Ginásio Dr. Antonio Leme Nunes Galvão
+ Jogos - Mandante: MARVEL -> Marvel, Visitante: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Ginásio: GINASIO ARENA UNILUS -> Ginasio Arena Unilus
+ Jogos - Mandante: CAMISA 10 F.C. -> Camisa 10, Visitante: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga, Ginásio: GINÁSIO POLIESPORTIVO ARMANDO FREDIANI -> Ginásio Poliesportivo Armando Frediani
+ Jogos - Mandante: E.C. HORTOLANDIA -> Hortolândia, Visitante: C.A. YPIRANGA -> Ypiranga, Ginásio: GINÁSIO MUNICIPAL VICTOR SAVALA -> Ginásio Municipal Victor Savala
+ Jogos - Mandante: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Visitante: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Ginásio: GINÁSIO PRESIDENTE CIRO II -> Ginásio Presidente Ciro Ii
+ Jogos - Mandante: LAUSANNE PAULISTA FC - A -> Lausanne, Visitante: TAUBATÉ FUTSAL -> Taubaté, Ginásio: GINÁSIO CYRO GILBERTO SAVOY -> Ginásio Cyro Gilberto Savoy
+ Jogos - Mandante: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Visitante: S.E. ELITE ITAQUERENSE -> Elite, Ginásio: GINÁSIO PRESIDENTE CIRO II -> Ginásio Presidente Ciro Ii
+ Jogos - Mandante: TAUBATÉ FUTSAL -> Taubaté, Visitante: C.A. JUVENTUS -> Juventus, Ginásio: GINÁSIO DE ESPORTES VILA APARECIDA -> Ginásio De Esportes Vila Aparecida
+ Jogos - Mandante: CAMISA 10 F.C. -> Camisa 10, Visitante: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Ginásio: GINÁSIO POLIESPORTIVO ARMANDO FREDIANI -> Ginásio Poliesportivo Armando Frediani
+ Jogos - Mandante: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Visitante: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Ginásio: GINÁSIO C.R.E. FUNDAÇÃO -> Ginásio C.r.e. Fundação
+ Jogos - Mandante: SE PALMEIRAS -> Palmeiras, Visitante: E.C. HORTOLANDIA -> Hortolândia, Ginásio: GINÁSIO ARENA PALESTRA ITÁLIA -> Ginásio Arena Palestra Itália
+ Jogos - Mandante: SANTOS FC -> Santos, Visitante: LAUSANNE PAULISTA FC - A -> Lausanne, Ginásio: GINÁSIO DO JABAQUARA -> Ginásio Do Jabaquara
+ Jogos - Mandante: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga, Visitante: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Ginásio: GINÁSIO JOAQUIM CAMBAÚVA RABELLO -> Ginásio Joaquim Cambaúva Rabello
+ Jogos - Mandante: C.A. TABUCA JRS -> Tabuca, Visitante: GREMETAL -> Gremetal, Ginásio: GINÁSIO CIE - PIETRA MEDEIROS -> Ginásio Cie - Pietra Medeiros
+ Jogos - Mandante: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé, Visitante: ASF/MAGNUS -> Magnus, Ginásio: GINÁSIO ACRE CLUBE -> Ginásio Acre Clube
+ Jogos - Mandante: A.D. BATEBOLA -> Batebola, Visitante: MARVEL -> Marvel, Ginásio: GINÁSIO ARENA BATEBOLA SPORTS -> Ginásio Arena Batebola Sports
+ Jogos - Mandante: SE PALMEIRAS -> Palmeiras, Visitante: CAMISA 10 F.C. -> Camisa 10, Ginásio: GINÁSIO ARENA PALESTRA ITÁLIA -> Ginásio Arena Palestra Itália
+ Jogos - Mandante: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Visitante: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Ginásio: GINÁSIO CLUBE MESC -> Ginásio Clube Mesc
+ Jogos - Mandante: S.E. ELITE ITAQUERENSE -> Elite, Visitante: SÃO PAULO FC - A -> São Paulo, Ginásio: GINÁSIO ELITE ITAQUERENSE -> Ginásio Elite Itaquerense
+ Jogos - Mandante: C.A. YPIRANGA -> Ypiranga, Visitante: A.D. SUZANO -> Suzano, Ginásio: GINÁSIO PRESIDENTE CIRO II -> Ginásio Presidente Ciro Ii
+ Jogos - Mandante: C.A. JUVENTUS -> Juventus, Visitante: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé, Ginásio: GINÁSIO JUVENTUS -> Ginásio Juventus
+ Jogos - Mandante: MARVEL -> Marvel, Visitante: TAUBATÉ FUTSAL -> Taubaté, Ginásio: GINASIO ARENA UNILUS -> Ginasio Arena Unilus
+ Jogos - Mandante: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Visitante: C.A. YPIRANGA -> Ypiranga, Ginásio: COMPLEXO ESPORTIVO MORADA DO SOL -> Complexo Esportivo Morada Do Sol
+ Jogos - Mandante: ASF/MAGNUS -> Magnus, Visitante: CAMISA 10 F.C. -> Camisa 10, Ginásio: GINÁSIO ARENA SOROCABA -> Ginásio Arena Sorocaba
+ Jogos - Mandante: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Visitante: A.D. BATEBOLA -> Batebola, Ginásio: GINÁSIO C.R.E. FUNDAÇÃO -> Ginásio C.r.e. Fundação
+ Jogos - Mandante: SÃO PAULO FC - A -> São Paulo, Visitante: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Ginásio: GINÁSIO DR. ANTONIO LEME NUNES GALVÃO -> Ginásio Dr. Antonio Leme Nunes Galvão
+ Dados convertidos para jogos: Array(181)
+ Iniciando requisição ao Firebase para classificacao: https://fpfsdoispontozero-default-rtdb.firebaseio.com/classificacao/2025/A1/Sub-9.json?cacheBuster=1750966084970
+ Dados brutos de https://fpfsdoispontozero-default-rtdb.firebaseio.com/classificacao/2025/A1/Sub-9.json?cacheBuster=1750966084970: Object
+ Linha inválida em classificacao (chave 2025_139): Object
+(anônimo) @ script.js:362
+ Classificação - Time: SE PALMEIRAS -> Palmeiras
+ Classificação - Time: SANTOS FC -> Santos
+ Classificação - Time: SÃO CAETANO FUTEBOL CLUBE -> RSFC
+ Classificação - Time: C.A. JUVENTUS -> Juventus
+ Classificação - Time: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians
+ Classificação - Time: SÃO PAULO FC - A -> São Paulo
+ Classificação - Time: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa
+ Classificação - Time: C.A. YPIRANGA -> Ypiranga
+ Classificação - Time: E.C. HORTOLANDIA -> Hortolândia
+ Classificação - Time: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga
+ Classificação - Time: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI
+ Classificação - Time: A.D. BATEBOLA -> Batebola
+ Classificação - Time: LAUSANNE PAULISTA FC - A -> Lausanne
+ Classificação - Time: CAMISA 10 F.C. -> Camisa 10
+ Classificação - Time: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax
+ Classificação - Time: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc
+ Classificação - Time: TAUBATÉ FUTSAL -> Taubaté
+ Classificação - Time: MARVEL -> Marvel
+ Classificação - Time: ASF/MAGNUS -> Magnus
+ Classificação - Time: GREMETAL -> Gremetal
+ Classificação - Time: C.A. TABUCA JRS -> Tabuca
+ Classificação - Time: S.E. ELITE ITAQUERENSE -> Elite
+ Classificação - Time: A.D. SUZANO -> Suzano
+ Classificação - Time: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé
+ Dados convertidos para classificacao: Array(25)
+ Iniciando requisição ao Firebase para artilharia: https://fpfsdoispontozero-default-rtdb.firebaseio.com/artilharia/2025/A1/Sub-9/2025_1.json?cacheBuster=1750966085156
+ Dados brutos de https://fpfsdoispontozero-default-rtdb.firebaseio.com/artilharia/2025/A1/Sub-9/2025_1.json?cacheBuster=1750966085156: null
+ Tentando fallback para artilharia: https://fpfsdoispontozero-default-rtdb.firebaseio.com/artilharia/2025/A1/Sub-9.json?cacheBuster=1750966085335
+ Dados brutos de fallback https://fpfsdoispontozero-default-rtdb.firebaseio.com/artilharia/2025/A1/Sub-9.json?cacheBuster=1750966085335: Object
+ Artilharia - Clube: SE PALMEIRAS -> Palmeiras, Jogador: HEDUARDO OLIVEIRA BURGOS -> Heduardo Oliveira Burgos
+ Artilharia - Clube: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Jogador: LUCAS DE OLIVEIRA NUNES -> Lucas De Oliveira Nunes
+ Artilharia - Clube: C.A. JUVENTUS -> Juventus, Jogador: RONALDO COLANTUONO FILHO -> Ronaldo Colantuono Filho
+ Artilharia - Clube: SANTOS FC -> Santos, Jogador: NÍCOLAS COLETTE QUICUCA -> Nícolas Colette Quicuca
+ Artilharia - Clube: LAUSANNE PAULISTA FC - A -> Lausanne, Jogador: JORGE TONELLI AMARAL SANTOS -> Jorge Tonelli Amaral Santos
+ Artilharia - Clube: C.A. YPIRANGA -> Ypiranga, Jogador: ENZO MIGUEL SOUSA CARVALHO -> Enzo Miguel Sousa Carvalho
+ Artilharia - Clube: SE PALMEIRAS -> Palmeiras, Jogador: SAMUEL SILVERIO DA SILVA CARDOSO -> Samuel Silverio Da Silva Cardoso
+ Artilharia - Clube: C.A. JUVENTUS -> Juventus, Jogador: HENRIQUE OLIVEIRA BRANCO FERNANDES -> Henrique Oliveira Branco Fernandes
+ Artilharia - Clube: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Jogador: ENZO MARQUES CAMPOS CORREA -> Enzo Marques Campos Correa
+ Artilharia - Clube: SANTOS FC -> Santos, Jogador: HENRIQUE VIEIRA CAMARGO -> Henrique Vieira Camargo
+ Artilharia - Clube: SÃO PAULO FC - A -> São Paulo, Jogador: DANIEL PEREIRA ESTEFANI VIEIRA -> Daniel Pereira Estefani Vieira
+ Artilharia - Clube: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Jogador: DAVI MENDES MELO -> Davi Mendes Melo
+ Artilharia - Clube: E.C. HORTOLANDIA -> Hortolândia, Jogador: ENZO GABRIEL SANTOS SEBASTIÃO -> Enzo Gabriel Santos Sebastião
+ Artilharia - Clube: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Jogador: PEDRO PADILHA DO NASCIMENTO -> Pedro Padilha Do Nascimento
+ Artilharia - Clube: SÃO PAULO FC - A -> São Paulo, Jogador: ENRICO VIEIRA SANTOS -> Enrico Vieira Santos
+ Artilharia - Clube: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Jogador: HENRIQUE MOREIRA CARDOSO DOS SANTOS -> Henrique Moreira Cardoso Dos Santos
+ Artilharia - Clube: SANTOS FC -> Santos, Jogador: ANTHONY CARLOS NUNES REIS -> Anthony Carlos Nunes Reis
+ Artilharia - Clube: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Jogador: ENZO FERREIRA DE OLIVEIRA -> Enzo Ferreira De Oliveira
+ Artilharia - Clube: C.A. JUVENTUS -> Juventus, Jogador: AUGUSTO GABRIEL GOMES LUNA -> Augusto Gabriel Gomes Luna
+ Artilharia - Clube: C.A. TABUCA JRS -> Tabuca, Jogador: MATHEUS SOUSA DA SILVA -> Matheus Sousa Da Silva
+ Artilharia - Clube: E.C. HORTOLANDIA -> Hortolândia, Jogador: LORENZO MARCHESI LEITE -> Lorenzo Marchesi Leite
+ Artilharia - Clube: SANTOS FC -> Santos, Jogador: ANTHONY SILVA ORTIZ -> Anthony Silva Ortiz
+ Artilharia - Clube: SE PALMEIRAS -> Palmeiras, Jogador: BRYAN HENRIQUE DE SOUZA FARIA -> Bryan Henrique De Souza Faria
+ Artilharia - Clube: SANTOS FC -> Santos, Jogador: SAMUEL DOS SANYTOS COSTA -> Samuel Dos Sanytos Costa
+ Artilharia - Clube: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Jogador: ARTHUR PHELLIPE DOS SANTOS CORREA -> Arthur Phellipe Dos Santos Correa
+ Artilharia - Clube: SANTOS FC -> Santos, Jogador: MURILO SANTANA MARQUES -> Murilo Santana Marques
+ Artilharia - Clube: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé, Jogador: GABRIEL RODRIGUES RESENDE -> Gabriel Rodrigues Resende
+ Artilharia - Clube: SE PALMEIRAS -> Palmeiras, Jogador: DAVI LUCCA DE MOURA VIEIRA -> Davi Lucca De Moura Vieira
+ Artilharia - Clube: E.C. HORTOLANDIA -> Hortolândia, Jogador: ARTHUR PACHECO BASTO -> Arthur Pacheco Basto
+ Artilharia - Clube: SE PALMEIRAS -> Palmeiras, Jogador: NATHAN MARTINS SANTANA -> Nathan Martins Santana
+ Artilharia - Clube: SANTOS FC -> Santos, Jogador: THÉO ASAFE OLIVEIRA MIRANDA -> Théo Asafe Oliveira Miranda
+ Artilharia - Clube: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga, Jogador: GABRIEL SHIGUEO PEREIRA IWAMOTO -> Gabriel Shigueo Pereira Iwamoto
+ Artilharia - Clube: C.A. YPIRANGA -> Ypiranga, Jogador: ARTHUR LIMA PUPINI -> Arthur Lima Pupini
+ Artilharia - Clube: C.A. YPIRANGA -> Ypiranga, Jogador: ALEC SANCHEZ FONSECA -> Alec Sanchez Fonseca
+ Artilharia - Clube: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Jogador: JOãO BARDUCHI MARQUES DE OLIVEIRA -> João Barduchi Marques De Oliveira
+ Artilharia - Clube: SÃO PAULO FC - A -> São Paulo, Jogador: VINíCIUS MACIEL DO NASCIMENTO -> Vinícius Maciel Do Nascimento
+ Artilharia - Clube: C.A. YPIRANGA -> Ypiranga, Jogador: DAVI MORAES CARRASCO -> Davi Moraes Carrasco
+ Artilharia - Clube: CAMISA 10 F.C. -> Camisa 10, Jogador: BERNARDO SILVA SOUZA DOS SANTOS -> Bernardo Silva Souza Dos Santos
+ Artilharia - Clube: S.E. ELITE ITAQUERENSE -> Elite, Jogador: WESLEY PEREIRA DE SOUSA -> Wesley Pereira De Sousa
+ Artilharia - Clube: SANTOS FC -> Santos, Jogador: JOãO PEDRO MARTINS BARAçAL PANARIELLO -> João Pedro Martins Baraçal Panariello
+ Artilharia - Clube: SE PALMEIRAS -> Palmeiras, Jogador: DIOGO CALEBE LEÃO DE MENDONÇA -> Diogo Calebe Leão De Mendonça
+ Artilharia - Clube: A.D. BATEBOLA -> Batebola, Jogador: GUILHERME DA SILVA MARQUES -> Guilherme Da Silva Marques
+ Artilharia - Clube: GREMETAL -> Gremetal, Jogador: ADRIANO APARECIDO FONSECA FILHO -> Adriano Aparecido Fonseca Filho
+ Artilharia - Clube: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Jogador: PEDRO HENRIQUE CARBONARI E SILVA -> Pedro Henrique Carbonari E Silva
+ Artilharia - Clube: SÃO PAULO FC - A -> São Paulo, Jogador: ARTHUR MELO ALEJANDRE DE MAGALHAES -> Arthur Melo Alejandre De Magalhaes
+ Artilharia - Clube: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Jogador: CHRISTOPHER PEREIRA SILVA -> Christopher Pereira Silva
+ Artilharia - Clube: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Jogador: MURILLO DEL COLSOPRANI -> Murillo Del Colsoprani
+ Artilharia - Clube: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Jogador: BERNARDO DUARTE PACHECO -> Bernardo Duarte Pacheco
+ Artilharia - Clube: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Jogador: GABRIEL HENRIQUE JACINTO DOS SANTOS -> Gabriel Henrique Jacinto Dos Santos
+ Artilharia - Clube: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé, Jogador: PEDRO CRUZ -> Pedro Cruz
+ Artilharia - Clube: SÃO PAULO FC - A -> São Paulo, Jogador: THIAGO SOUSA ARAúJO PINHEIRO -> Thiago Sousa Araújo Pinheiro
+ Artilharia - Clube: ASF/MAGNUS -> Magnus, Jogador: GABRIEL BATISTA VIEIRA PINTO -> Gabriel Batista Vieira Pinto
+ Artilharia - Clube: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga, Jogador: BRYAN CAMARA OLIVEIRA -> Bryan Camara Oliveira
+ Artilharia - Clube: C.A. JUVENTUS -> Juventus, Jogador: CAUA GUILHERME DE ANDRADE GAMA -> Caua Guilherme De Andrade Gama
+ Artilharia - Clube: CAMISA 10 F.C. -> Camisa 10, Jogador: DAVI LUCCA GUILHERME SANTOS -> Davi Lucca Guilherme Santos
+ Artilharia - Clube: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Jogador: THéO HENRIQUE TELES BISPO -> Théo Henrique Teles Bispo
+ Artilharia - Clube: GREMETAL -> Gremetal, Jogador: GUILHERME ABACHIONI TEIXEIRA -> Guilherme Abachioni Teixeira
+ Artilharia - Clube: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Jogador: PYETRO DA SILVA DE JESUS BARBOSA -> Pyetro Da Silva De Jesus Barbosa
+ Artilharia - Clube: TAUBATÉ FUTSAL -> Taubaté, Jogador: ROMEU JORGE DA SILVA -> Romeu Jorge Da Silva
+ Artilharia - Clube: A.D. SUZANO -> Suzano, Jogador: SAMUEL PIAZ GONçALVES -> Samuel Piaz Gonçalves
+ Artilharia - Clube: LAUSANNE PAULISTA FC - A -> Lausanne, Jogador: BENJAMIN DE CASTRO RODRIGUES -> Benjamin De Castro Rodrigues
+ Artilharia - Clube: LAUSANNE PAULISTA FC - A -> Lausanne, Jogador: ENRICO BASTOS GUIMARãES -> Enrico Bastos Guimarães
+ Artilharia - Clube: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé, Jogador: JOãO LUCCA CAIRES FERREIRA -> João Lucca Caires Ferreira
+ Artilharia - Clube: E.C. HORTOLANDIA -> Hortolândia, Jogador: KAYK WILDEN DA SILVA -> Kayk Wilden Da Silva
+ Artilharia - Clube: C.A. TABUCA JRS -> Tabuca, Jogador: THIAGO SILVA GUILGER -> Thiago Silva Guilger
+ Artilharia - Clube: CAMISA 10 F.C. -> Camisa 10, Jogador: BRENNO MARQUES VIEIRA -> Brenno Marques Vieira
+ Artilharia - Clube: A.D. BATEBOLA -> Batebola, Jogador: RHYAN SAMPAIO VIEIRA DE SANTANA -> Rhyan Sampaio Vieira De Santana
+ Artilharia - Clube: A.D. SUZANO -> Suzano, Jogador: OCTÁVIO LÚCIO PINA DA SILVA -> Octávio Lúcio Pina Da Silva
+ Artilharia - Clube: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Jogador: MURILO MENDES DOS SANTOS -> Murilo Mendes Dos Santos
+ Artilharia - Clube: S.E. ELITE ITAQUERENSE -> Elite, Jogador: FELIPE LUCAS ALCANTARA CAMARGO -> Felipe Lucas Alcantara Camargo
+ Artilharia - Clube: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Jogador: CAIO ALVES RODRIGUES -> Caio Alves Rodrigues
+ Artilharia - Clube: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga, Jogador: LORENZO MARCELINO RODRIGUES -> Lorenzo Marcelino Rodrigues
+ Artilharia - Clube: A.D. BATEBOLA -> Batebola, Jogador: ENZO BELO LIMA -> Enzo Belo Lima
+ Artilharia - Clube: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga, Jogador: DAVI DOS SANTOS CAVALCANTE -> Davi Dos Santos Cavalcante
+ Artilharia - Clube: A.D. BATEBOLA -> Batebola, Jogador: MIGUEL SILVA DO VALE -> Miguel Silva Do Vale
+ Artilharia - Clube: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Jogador: GUSTAVO MONTEIRO DE OLIVEIRA MOREIRA -> Gustavo Monteiro De Oliveira Moreira
+ Artilharia - Clube: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Jogador: MIGUEL DE ALENCAR SILVA -> Miguel De Alencar Silva
+ Artilharia - Clube: S.E. ELITE ITAQUERENSE -> Elite, Jogador: WILCOLIN CAMPOS OLIVEIRA -> Wilcolin Campos Oliveira
+ Artilharia - Clube: MARVEL -> Marvel, Jogador: EZEQUIEL SãO JOSE VIEIRA -> Ezequiel São Jose Vieira
+ Artilharia - Clube: A.D. BATEBOLA -> Batebola, Jogador: ARTHUR WERNECK BARROS -> Arthur Werneck Barros
+ Artilharia - Clube: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Jogador: LORENZO DE OLIVEIRA POSSEBON -> Lorenzo De Oliveira Possebon
+ Artilharia - Clube: C.A. YPIRANGA -> Ypiranga, Jogador: MATHEUS CAVALCANTE ARAUJO -> Matheus Cavalcante Araujo
+ Artilharia - Clube: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Jogador: CAUã EDUARDO POLACCI -> Cauã Eduardo Polacci
+ Artilharia - Clube: C.A. TABUCA JRS -> Tabuca, Jogador: SAMUEL DOS SANTOS FILGUEIRA -> Samuel Dos Santos Filgueira
+ Artilharia - Clube: GREMETAL -> Gremetal, Jogador: DAVI SILVA MEDEIROS DOS PASSOS -> Davi Silva Medeiros Dos Passos
+ Artilharia - Clube: LAUSANNE PAULISTA FC - A -> Lausanne, Jogador: RIAN LOUZEIRO NUNES -> Rian Louzeiro Nunes
+ Artilharia - Clube: TAUBATÉ FUTSAL -> Taubaté, Jogador: BENíCIO BARROS DE MENDONçA -> Benício Barros De Mendonça
+ Artilharia - Clube: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé, Jogador: MARCELO FREDERICO CHOLODIK DOS SANTOS -> Marcelo Frederico Cholodik Dos Santos
+ Artilharia - Clube: S.E. ELITE ITAQUERENSE -> Elite, Jogador: ROMEO D'ORAZIO -> Romeo D'orazio
+ Artilharia - Clube: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Jogador: DAVI BARALDI DA SILVA -> Davi Baraldi Da Silva
+ Artilharia - Clube: ASF/MAGNUS -> Magnus, Jogador: JUAN LUCCA RIBEIRO DOS SANTOS -> Juan Lucca Ribeiro Dos Santos
+ Artilharia - Clube: GREMETAL -> Gremetal, Jogador: MATEUS DE FRANçA SEITO GAMEIRO -> Mateus De França Seito Gameiro
+ Artilharia - Clube: C.A. JUVENTUS -> Juventus, Jogador: DANIEL VIANA FERREIRA -> Daniel Viana Ferreira
+ Artilharia - Clube: TAUBATÉ FUTSAL -> Taubaté, Jogador: DAVI PIERRE FERREIRA DOS SANTOS -> Davi Pierre Ferreira Dos Santos
+ Artilharia - Clube: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Jogador: DAVI DE BRITO SOALHEIRO -> Davi De Brito Soalheiro
+ Artilharia - Clube: SANTOS FC -> Santos, Jogador: GABRIEL ELIAS RIBEIRO SORRENTINO -> Gabriel Elias Ribeiro Sorrentino
+ Artilharia - Clube: E.C. HORTOLANDIA -> Hortolândia, Jogador: THóMAS POLI SANTOS -> Thómas Poli Santos
+ Artilharia - Clube: S.E. ELITE ITAQUERENSE -> Elite, Jogador: BENJAMIN RAMOS LOPES -> Benjamin Ramos Lopes
+ Artilharia - Clube: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Jogador: LUIGI SANTANA ROSSI -> Luigi Santana Rossi
+ Artilharia - Clube: S.E. ELITE ITAQUERENSE -> Elite, Jogador: PEDRO REBELLO PEREIRA -> Pedro Rebello Pereira
+ Artilharia - Clube: LAUSANNE PAULISTA FC - A -> Lausanne, Jogador: CARLOS EDUARDO TIETBOHL DE ANDRADE OLIVEIRA -> Carlos Eduardo Tietbohl De Andrade Oliveira
+ Artilharia - Clube: SÃO PAULO FC - A -> São Paulo, Jogador: LUIZ GUSTAVO DA SILVA AMORIM -> Luiz Gustavo Da Silva Amorim
+ Artilharia - Clube: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Jogador: PIETRO MUNIZ DE OLIVEIRA VISSES -> Pietro Muniz De Oliveira Visses
+ Artilharia - Clube: CAMISA 10 F.C. -> Camisa 10, Jogador: DAVI NUNES DOMINGUES -> Davi Nunes Domingues
+ Artilharia - Clube: C.A. TABUCA JRS -> Tabuca, Jogador: WELBERTY FERREIRA DE JESUS -> Welberty Ferreira De Jesus
+ Artilharia - Clube: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Jogador: BERNARDO OTAVIO PEREIRA DOS SANTOS -> Bernardo Otavio Pereira Dos Santos
+ Artilharia - Clube: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Jogador: LORENZO DOS SANTOS CAEIRO -> Lorenzo Dos Santos Caeiro
+ Artilharia - Clube: LAUSANNE PAULISTA FC - A -> Lausanne, Jogador: MATHEUS SILVA TECOLO -> Matheus Silva Tecolo
+ Artilharia - Clube: CAMISA 10 F.C. -> Camisa 10, Jogador: ARTHUR SANTANA BEZERRA -> Arthur Santana Bezerra
+ Artilharia - Clube: SE PALMEIRAS -> Palmeiras, Jogador: BERNARDO MARTELINI CAçADOR -> Bernardo Martelini Caçador
+ Artilharia - Clube: A.D. BATEBOLA -> Batebola, Jogador: YAGO RAVY RIBEIRO ALMEIDA -> Yago Ravy Ribeiro Almeida
+ Artilharia - Clube: ASF/MAGNUS -> Magnus, Jogador: PEDRO HENRIQUE CAMARGO DE OLIVEIRA SANTOS -> Pedro Henrique Camargo De Oliveira Santos
+ Artilharia - Clube: ASF/MAGNUS -> Magnus, Jogador: BERNARDO CAMPOS DE ALMEIDA -> Bernardo Campos De Almeida
+ Artilharia - Clube: CAMISA 10 F.C. -> Camisa 10, Jogador: ENZO ZIDANE SOARES FREIRE -> Enzo Zidane Soares Freire
+ Artilharia - Clube: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Jogador: HEITOR LEAL MARANTE -> Heitor Leal Marante
+ Artilharia - Clube: SÃO PAULO FC - A -> São Paulo, Jogador: RYAN CARDINALI LECHNER -> Ryan Cardinali Lechner
+ Artilharia - Clube: ASF/MAGNUS -> Magnus, Jogador: LEONARDO ESTANISLAU TRUJILLO GUIMARãES -> Leonardo Estanislau Trujillo Guimarães
+ Artilharia - Clube: LAUSANNE PAULISTA FC - A -> Lausanne, Jogador: GUILHERME MODRO -> Guilherme Modro
+ Artilharia - Clube: A.D. SUZANO -> Suzano, Jogador: WENDELL XAVIER DA SILVA -> Wendell Xavier Da Silva
+ Artilharia - Clube: A.D. BATEBOLA -> Batebola, Jogador: JOAQUIM MACAROFF DREGER -> Joaquim Macaroff Dreger
+ Artilharia - Clube: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Jogador: LUCCA ARAUJO CRUZ -> Lucca Araujo Cruz
+ Artilharia - Clube: A.D. SUZANO -> Suzano, Jogador: PEDRO MESSA ZANCHETTA -> Pedro Messa Zanchetta
+ Artilharia - Clube: LAUSANNE PAULISTA FC - A -> Lausanne, Jogador: LUCCA LUCIANO TOMAZO CRUZ -> Lucca Luciano Tomazo Cruz
+ Artilharia - Clube: CAMISA 10 F.C. -> Camisa 10, Jogador: LEO AKIRA PASCHOA SAKAI -> Leo Akira Paschoa Sakai
+ Artilharia - Clube: E.C. HORTOLANDIA -> Hortolândia, Jogador: JULLYO ROBSON ALBERTO -> Jullyo Robson Alberto
+ Artilharia - Clube: C.A. TABUCA JRS -> Tabuca, Jogador: LORENZO SILVA MARQUES -> Lorenzo Silva Marques
+script.js:381 Artilharia - Clube: MARVEL -> Marvel, Jogador: LUCCA WINTER PAZZINI DE MORAIS -> Lucca Winter Pazzini De Morais
+script.js:381 Artilharia - Clube: ASF/MAGNUS -> Magnus, Jogador: PEDRO CAMPOS RIBEIRO -> Pedro Campos Ribeiro
+script.js:381 Artilharia - Clube: E.C. HORTOLANDIA -> Hortolândia, Jogador: ARTHUR BLEINAT NASCIMENTO -> Arthur Bleinat Nascimento
+script.js:381 Artilharia - Clube: SÃO PAULO FC - A -> São Paulo, Jogador: KALEL SOUSA SANTANA -> Kalel Sousa Santana
+script.js:381 Artilharia - Clube: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Jogador: ARTHUR MEIRELES MONTEIRO -> Arthur Meireles Monteiro
+script.js:381 Artilharia - Clube: GREMETAL -> Gremetal, Jogador: LUCAS SALEM SANTOS -> Lucas Salem Santos
+script.js:381 Artilharia - Clube: A.D. BATEBOLA -> Batebola, Jogador: ARTHUR LUIS RIBEIRO ALVES -> Arthur Luis Ribeiro Alves
+script.js:381 Artilharia - Clube: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Jogador: DAVI MOURA SILVA -> Davi Moura Silva
+script.js:381 Artilharia - Clube: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Jogador: PIERRE DOS SANTOS SABOJAN -> Pierre Dos Santos Sabojan
+script.js:381 Artilharia - Clube: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Jogador: MATHEUS PAULINO BERTOLI -> Matheus Paulino Bertoli
+script.js:381 Artilharia - Clube: SANTOS FC -> Santos, Jogador: MURILO DE OLIVEIRA RODRIGUES TAVARES -> Murilo De Oliveira Rodrigues Tavares
+script.js:381 Artilharia - Clube: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Jogador: SAMUEL BUENO FERREIRA -> Samuel Bueno Ferreira
+script.js:381 Artilharia - Clube: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Jogador: MATHEUS RODRIGUES ROCHA -> Matheus Rodrigues Rocha
+script.js:381 Artilharia - Clube: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga, Jogador: ARTHUR LOBL DE ARAúJO -> Arthur Lobl De Araújo
+script.js:381 Artilharia - Clube: CAMISA 10 F.C. -> Camisa 10, Jogador: FABRICIO ALBUQUERQUE VICHR -> Fabricio Albuquerque Vichr
+script.js:381 Artilharia - Clube: S.E. ELITE ITAQUERENSE -> Elite, Jogador: Lorenzo Miguel Silva Barros -> Lorenzo Miguel Silva Barros
+script.js:381 Artilharia - Clube: MARVEL -> Marvel, Jogador: LUIZ GUSTAVO SANTANA DOS SANTOS -> Luiz Gustavo Santana Dos Santos
+script.js:381 Artilharia - Clube: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé, Jogador: LUCAS MéDA FIGUEIREDO DE OLIVEIRA -> Lucas Méda Figueiredo De Oliveira
+script.js:381 Artilharia - Clube: MARVEL -> Marvel, Jogador: LUCCA DOMINGUES MOUTINHO -> Lucca Domingues Moutinho
+script.js:381 Artilharia - Clube: TAUBATÉ FUTSAL -> Taubaté, Jogador: LEWIS HAMILTON ALVES DOS SANTOS TOLEDO SILVA -> Lewis Hamilton Alves Dos Santos Toledo Silva
+script.js:381 Artilharia - Clube: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Jogador: LUCA PONINHA DUARTE PIMENTA -> Luca Poninha Duarte Pimenta
+script.js:381 Artilharia - Clube: MARVEL -> Marvel, Jogador: JOãO RAFAEL OTERO DOS SANTOS -> João Rafael Otero Dos Santos
+script.js:381 Artilharia - Clube: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga, Jogador: DAVI NASCIMENTO GARCIA -> Davi Nascimento Garcia
+script.js:381 Artilharia - Clube: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé, Jogador: BERNARDO MADáZIO VELOSO -> Bernardo Madázio Veloso
+script.js:381 Artilharia - Clube: TAUBATÉ FUTSAL -> Taubaté, Jogador: PEDRO BARROS NEVES -> Pedro Barros Neves
+script.js:381 Artilharia - Clube: A.D. SUZANO -> Suzano, Jogador: YAGO FELIX DA SILVA -> Yago Felix Da Silva
+script.js:381 Artilharia - Clube: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Jogador: BENICIO CAMPOS SANTOS -> Benicio Campos Santos
+script.js:381 Artilharia - Clube: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Jogador: MIGUEL SILVA GUEDES -> Miguel Silva Guedes
+script.js:381 Artilharia - Clube: C.A. TABUCA JRS -> Tabuca, Jogador: GUILHERME RIBEIRO MARIANO -> Guilherme Ribeiro Mariano
+script.js:381 Artilharia - Clube: SÃO PAULO FC - A -> São Paulo, Jogador: ANTHONY BORTOLETTI -> Anthony Bortoletti
+script.js:381 Artilharia - Clube: C.A. JUVENTUS -> Juventus, Jogador: KUAN HENRIQUE DE JESUS SANTOS SOUZA -> Kuan Henrique De Jesus Santos Souza
+script.js:381 Artilharia - Clube: C.A. JUVENTUS -> Juventus, Jogador: GUILHERME MERLO DE SOUZA -> Guilherme Merlo De Souza
+script.js:381 Artilharia - Clube: S.E. ELITE ITAQUERENSE -> Elite, Jogador: BRENNO FERREIRA TELES -> Brenno Ferreira Teles
+script.js:381 Artilharia - Clube: SE PALMEIRAS -> Palmeiras, Jogador: KAUÃ BRITO DE SOUZA -> Kauã Brito De Souza
+script.js:381 Artilharia - Clube: A.D. BATEBOLA -> Batebola, Jogador: RYCHARD HENRIQUE SOUZA FERNANDES -> Rychard Henrique Souza Fernandes
+script.js:381 Artilharia - Clube: SÃO PAULO FC - A -> São Paulo, Jogador: LUCAS COELHO GARCIA DA SILVA -> Lucas Coelho Garcia Da Silva
+script.js:381 Artilharia - Clube: LIGA SANCAETANENSE DE FUTEBOL DE SALÃO -> Liga, Jogador: LEONARDO DATOVO BASTOS DE MIRANDA -> Leonardo Datovo Bastos De Miranda
+script.js:381 Artilharia - Clube: C.A. YPIRANGA -> Ypiranga, Jogador: KELLVIN DA TRINDADE FERRAZ -> Kellvin Da Trindade Ferraz
+script.js:381 Artilharia - Clube: MARVEL -> Marvel, Jogador: JOAQUIM FERREIRA MATHIAS -> Joaquim Ferreira Mathias
+script.js:381 Artilharia - Clube: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Jogador: GABRIEL CUNHA QUEIROZ -> Gabriel Cunha Queiroz
+script.js:381 Artilharia - Clube: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Jogador: HEITOR ROCHA DE ANDRADE E SILVA -> Heitor Rocha De Andrade E Silva
+script.js:381 Artilharia - Clube: LAUSANNE PAULISTA FC - A -> Lausanne, Jogador: LEONARDO MARTINS SAMPAIO -> Leonardo Martins Sampaio
+script.js:381 Artilharia - Clube: C.A. YPIRANGA -> Ypiranga, Jogador: LEVY LEANDRO SOUZA DUARTE -> Levy Leandro Souza Duarte
+script.js:381 Artilharia - Clube: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Jogador: ISAAC BATISTA MOTA -> Isaac Batista Mota
+script.js:381 Artilharia - Clube: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Jogador: ENZO MELO LEMOS FERREIRA -> Enzo Melo Lemos Ferreira
+script.js:381 Artilharia - Clube: C.A. TABUCA JRS -> Tabuca, Jogador: PEDRO DOS SANTOS BARBOSA -> Pedro Dos Santos Barbosa
+script.js:381 Artilharia - Clube: TAUBATÉ FUTSAL -> Taubaté, Jogador: HENRICO LISBOA SANTOS -> Henrico Lisboa Santos
+script.js:381 Artilharia - Clube: MARVEL -> Marvel, Jogador: GABRIEL FERNANDES DOS SANTOS -> Gabriel Fernandes Dos Santos
+script.js:381 Artilharia - Clube: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Jogador: JOÃO LUCAS FOGAÇA BARBOSA -> João Lucas Fogaça Barbosa
+script.js:381 Artilharia - Clube: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Jogador: BRENO AMADEU SEVERO MARCOS -> Breno Amadeu Severo Marcos
+script.js:381 Artilharia - Clube: ASF/MAGNUS -> Magnus, Jogador: DAVI SILVA DE MORAES SANTOS -> Davi Silva De Moraes Santos
+script.js:381 Artilharia - Clube: TAUBATÉ FUTSAL -> Taubaté, Jogador: DAVI RODRIGUES CARNEIRO -> Davi Rodrigues Carneiro
+script.js:381 Artilharia - Clube: LAUSANNE PAULISTA FC - A -> Lausanne, Jogador: FELIPE AZEVEDO -> Felipe Azevedo
+script.js:381 Artilharia - Clube: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Jogador: MURILO DA CUNHA MEDEIROS -> Murilo Da Cunha Medeiros
+script.js:381 Artilharia - Clube: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Jogador: VICTOR ALVES GRANADO DE SOUZA -> Victor Alves Granado De Souza
+script.js:381 Artilharia - Clube: C.A. YPIRANGA -> Ypiranga, Jogador: LEONARDO NOGUEIRA RIBEIRO -> Leonardo Nogueira Ribeiro
+script.js:381 Artilharia - Clube: TAUBATÉ FUTSAL -> Taubaté, Jogador: ANTHONY VARGAS DA SILVA -> Anthony Vargas Da Silva
+script.js:381 Artilharia - Clube: E.C. HORTOLANDIA -> Hortolândia, Jogador: DAVI CAVALINI MUNHOZ -> Davi Cavalini Munhoz
+script.js:381 Artilharia - Clube: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Jogador: BERNARDO DOS SANTOS OLIVEIRA -> Bernardo Dos Santos Oliveira
+script.js:381 Artilharia - Clube: A.D. BATEBOLA -> Batebola, Jogador: GABRIEL HENRIQUE CERQUEIRA DE OLIVEIRA -> Gabriel Henrique Cerqueira De Oliveira
+script.js:381 Artilharia - Clube: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Jogador: ARTHUR LEONE DE MORAES -> Arthur Leone De Moraes
+script.js:381 Artilharia - Clube: C.A. JUVENTUS -> Juventus, Jogador: PEDRO CORCETTI GOMES -> Pedro Corcetti Gomes
+script.js:381 Artilharia - Clube: C.A. JUVENTUS -> Juventus, Jogador: JOÃO PEDRO OLIVEIRA DE LIMA FERREIRA -> João Pedro Oliveira De Lima Ferreira
+script.js:381 Artilharia - Clube: SPORT CLUB CORINTHIANS PAULISTA -> Corinthians, Jogador: GABRIEL LEMES RAMOS -> Gabriel Lemes Ramos
+script.js:381 Artilharia - Clube: GREMETAL -> Gremetal, Jogador: GABRIEL ELIAS RABELO -> Gabriel Elias Rabelo
+script.js:381 Artilharia - Clube: ASSOCIAÇÃO ESPORTIVA CENTRO DE TREINAMENTO BOLA NO PÉ -> Bola no Pé, Jogador: ENZO VIEIRA DOS SANTOS -> Enzo Vieira Dos Santos
+script.js:381 Artilharia - Clube: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Jogador: LUCAS CARRILLO BRIZZI -> Lucas Carrillo Brizzi
+script.js:381 Artilharia - Clube: A.D. DO ABCD/MESC SÃO BERNARDO -> Mesc, Jogador: CAIO GABRIEL SOARES OTSUJI -> Caio Gabriel Soares Otsuji
+script.js:381 Artilharia - Clube: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Jogador: BERNARDO DE SOUSA RODRIGUES -> Bernardo De Sousa Rodrigues
+script.js:381 Artilharia - Clube: ASSOCIAÇÃO PORTUGUESA DE DESPORTOS -> Portuguesa, Jogador: LUCCA RISSARDO SORELLI -> Lucca Rissardo Sorelli
+script.js:381 Artilharia - Clube: CAMISA 10 F.C. -> Camisa 10, Jogador: DIOGO ALBOLEDO REIS -> Diogo Alboledo Reis
+script.js:381 Artilharia - Clube: E.C. HORTOLANDIA -> Hortolândia, Jogador: LEONARDO MONTEIRO FERREIRA -> Leonardo Monteiro Ferreira
+script.js:381 Artilharia - Clube: C.A. TABUCA JRS -> Tabuca, Jogador: YURI DE OLIVEIRA SILVA -> Yuri De Oliveira Silva
+script.js:381 Artilharia - Clube: FAE /OSASCO/ AUDAX/PEDAGOGIA ESPORTE SOCIAL -> Audax, Jogador: LORENZO SOARES DOS SANTOS MARTINS -> Lorenzo Soares Dos Santos Martins
+script.js:381 Artilharia - Clube: A.D. BATEBOLA -> Batebola, Jogador: RAPHAEL CARDOSO DE OLIVEIRA SOUZA -> Raphael Cardoso De Oliveira Souza
+script.js:381 Artilharia - Clube: SÃO PAULO FC - A -> São Paulo, Jogador: LUCCA LIMA MACHADO -> Lucca Lima Machado
+script.js:381 Artilharia - Clube: A.D. SUZANO -> Suzano, Jogador: MIGUEL NASCIMENTO SANTOS -> Miguel Nascimento Santos
+script.js:381 Artilharia - Clube: SÃO CAETANO FUTEBOL CLUBE -> RSFC, Jogador: MIGUEL SANTOS SILVA -> Miguel Santos Silva
+script.js:381 Artilharia - Clube: C.A. TABUCA JRS -> Tabuca, Jogador: BERNARDO RICARDO DO CARMO -> Bernardo Ricardo Do Carmo
+script.js:381 Artilharia - Clube: SE PALMEIRAS -> Palmeiras, Jogador: CAIQUE RUAS BAPTISTELLA -> Caique Ruas Baptistella
+script.js:381 Artilharia - Clube: SÃO PAULO FC - A -> São Paulo, Jogador: JOAQUIM BELMONTE FERNANDES -> Joaquim Belmonte Fernandes
+script.js:381 Artilharia - Clube: INDAIATUBA FUTSAL/INDACOR/LOFTS -> ADI, Jogador: LEONARDO HOFFER DA COSTA CAMARGO DE OLIVEIRA -> Leonardo Hoffer Da Costa Camargo De Oliveira
+script.js:381 Artilharia - Clube: ASF/MAGNUS -> Magnus, Jogador: MIGUEL DE VECHIO VIEIRA -> Miguel De Vechio Vieira
+script.js:385 Dados convertidos para artilharia: Array(210)
+script.js:427 Populando filtros
+script.js:462 Filtro clube-estatisticas populado com valores: Array(24)
+script.js:435 Falha ao encontrar jogador-estatisticas. DOM carregado: complete
+(anônimo) @ script.js:435
+script.js:436 Seletores disponíveis: Array(7)
+script.js:495 Exibindo dados da Estatísticas
+script.js:408 Erro limpo
+script.js:719 Aplicando filtros para artilharia: Object
+script.js:729 Dados filtrados e ordenados por Index: Array(209)
+script.js:29 Uncaught (in promise) ReferenceError: k is not defined
+    at multiplyMatrix (script.js:29:38)
+    at calculatePolynomialRegression (script.js:67:17)
+    at displayEstatisticas (script.js:574:27)
+    at HTMLButtonElement.applyGlobalFilters (script.js:756:5)
+script.js:444 Retry falhou para jogador-estatisticas
+(anônimo) @ script.js:444
+script.js:495 Exibindo dados da Estatísticas
+script.js:408 Erro limpo
+script.js:719 Aplicando filtros para artilharia: Object
+script.js:729 Dados filtrados e ordenados por Index: Array(209)
+script.js:29 Uncaught ReferenceError: k is not defined
+    at multiplyMatrix (script.js:29:38)
+    at calculatePolynomialRegression (script.js:67:17)
+    at displayEstatisticas (script.js:574:27)
+    at HTMLButtonElement.<anonymous> (script.js:818:9)
+script.js:495 Exibindo dados da Estatísticas
+script.js:408 Erro limpo
+script.js:719 Aplicando filtros para artilharia: Object
+script.js:729 Dados filtrados e ordenados por Index: Array(209)
+script.js:29 Uncaught ReferenceError: k is not defined
+    at multiplyMatrix (script.js:29:38)
+    at calculatePolynomialRegression (script.js:67:17)
+    at displayEstatisticas (script.js:574:27)
+    at HTMLButtonElement.<anonymous> (script.js:814:9)
