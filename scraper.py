@@ -42,6 +42,7 @@ def extract_classificacao(url):
         time.sleep(5)  # Espera inicial
         table_classificacao = WebDriverWait(driver, 20).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, '.classification_table'))
+        )
         rows_classificacao = table_classificacao.find_elements(By.TAG_NAME, 'tr')
         data_classificacao = []
         for row in rows_classificacao:
@@ -62,6 +63,7 @@ def extract_jogos(url):
         time.sleep(5)  # Espera inicial
         table_jogos = WebDriverWait(driver, 20).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, 'table'))
+        )
         rows_jogos = table_jogos.find_elements(By.TAG_NAME, 'tr')
         data_jogos = []
         for row in rows_jogos:
@@ -114,6 +116,7 @@ def extract_artilharia(url):
         time.sleep(5)  # Espera inicial
         table_artilharia = WebDriverWait(driver, 20).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, 'table'))
+        )
         rows_artilharia = table_artilharia.find_elements(By.TAG_NAME, 'tr')
         data_artilharia = []
         for row in rows_artilharia:
@@ -151,7 +154,6 @@ df_jogos_list = []
 df_artilharia_list = []
 
 for key, link_data in links.items():
-    # Validar que todos os campos necessários estão presentes
     required_fields = ['Link', 'Divisao', 'Categoria', 'Ano', 'type']
     if not all(field in link_data for field in required_fields):
         print(f"Ignorando link inválido {key}: faltam campos obrigatórios")
@@ -218,9 +220,7 @@ def save_to_firebase(df, ref, table_name):
         categoria = row['Categoria']
         row_key = f"{ano}_{row['Index']}"  # Usar o valor da coluna 'Index' para unicidade
         try:
-            # Criar referência com hierarquia Ano/Divisao/Categoria
             child_ref = ref.child(ano).child(divisao).child(categoria).child(row_key)
-            # Remover campos Ano, Divisao, Categoria, Index do dicionário para evitar duplicação
             row_dict = row.drop(['Ano', 'Divisao', 'Categoria', 'Index']).to_dict()
             print(f"Tentando gravar linha de {table_name} {row_key} ({ano}/{divisao}/{categoria}): {row_dict}")
             child_ref.set(row_dict)
