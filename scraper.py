@@ -42,7 +42,6 @@ def extract_classificacao(url):
         time.sleep(5)  # Espera inicial
         table_classificacao = WebDriverWait(driver, 20).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, '.classification_table'))
-        )
         rows_classificacao = table_classificacao.find_elements(By.TAG_NAME, 'tr')
         data_classificacao = []
         for row in rows_classificacao:
@@ -50,8 +49,6 @@ def extract_classificacao(url):
             cols = [col.text for col in cols]
             data_classificacao.append(cols)
         df_classificacao = pd.DataFrame(data_classificacao)
-        df_classificacao['Index'] = df_classificacao.index
-        df_classificacao = df_classificacao.sort_values(by='Index', ascending=True)
         print(f"Dados de classificação extraídos de {url}: {len(data_classificacao)} linhas.")
         return df_classificacao
     except Exception as e:
@@ -65,7 +62,6 @@ def extract_jogos(url):
         time.sleep(5)  # Espera inicial
         table_jogos = WebDriverWait(driver, 20).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, 'table'))
-        )
         rows_jogos = table_jogos.find_elements(By.TAG_NAME, 'tr')
         data_jogos = []
         for row in rows_jogos:
@@ -105,13 +101,11 @@ def extract_jogos(url):
             formatted_jogos.append([data, horario, ginasio, mandante, placar1, "X", placar2, visitante])
 
         df_jogos = pd.DataFrame(formatted_jogos, columns=["Data", "Horário", "Ginásio", "Mandante", "Placar 1", "X", "Placar 2", "Visitante"])
-        df_jogos['Index'] = df_jogos.index
-        df_jogos = df_jogos.sort_values(by='Index', ascending=True)
         print(f"Dados de jogos formatados de {url}: {len(formatted_jogos)} linhas.")
         return df_jogos
     except Exception as e:
         print(f"Erro ao extrair jogos de {url}: {str(e)}")
-        return pd.DataFrame(columns=["Data", "Horário", "Ginásio", "Mandante", "Placar 1", "X", "Placar 2", "Visitante", "Index"])
+        return pd.DataFrame(columns=["Data", "Horário", "Ginásio", "Mandante", "Placar 1", "X", "Placar 2", "Visitante"])
 
 # Função para extrair tabela de artilharia
 def extract_artilharia(url):
@@ -120,7 +114,6 @@ def extract_artilharia(url):
         time.sleep(5)  # Espera inicial
         table_artilharia = WebDriverWait(driver, 20).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, 'table'))
-        )
         rows_artilharia = table_artilharia.find_elements(By.TAG_NAME, 'tr')
         data_artilharia = []
         for row in rows_artilharia:
@@ -196,10 +189,18 @@ for key, link_data in links.items():
     else:
         print(f"Tipo de link desconhecido: {link_type}")
 
-# Combinar DataFrames, se houver múltiplos
+# Combinar DataFrames, se houver múltiplos, e redefinir o índice começando de 1
 df_classificacao = pd.concat(df_classificacao_list, ignore_index=True) if df_classificacao_list else pd.DataFrame()
-df_jogos = pd.concat(df_jogos_list, ignore_index=True) if df_jogos_list else pd.DataFrame(columns=["Data", "Horário", "Ginásio", "Mandante", "Placar 1", "X", "Placar 2", "Visitante", "Index", "Divisao", "Categoria", "Ano"])
+if not df_classificacao.empty:
+    df_classificacao['Index'] = range(1, len(df_classificacao) + 1)
+
+df_jogos = pd.concat(df_jogos_list, ignore_index=True) if df_jogos_list else pd.DataFrame(columns=["Data", "Horário", "Ginásio", "Mandante", "Placar 1", "X", "Placar 2", "Visitante", "Divisao", "Categoria", "Ano"])
+if not df_jogos.empty:
+    df_jogos['Index'] = range(1, len(df_jogos) + 1)
+
 df_artilharia = pd.concat(df_artilharia_list, ignore_index=True) if df_artilharia_list else pd.DataFrame()
+if not df_artilharia.empty:
+    df_artilharia['Index'] = range(1, len(df_artilharia) + 1)
 
 # Fechar o navegador
 driver.quit()
@@ -215,12 +216,12 @@ def save_to_firebase(df, ref, table_name):
         ano = row['Ano']
         divisao = row['Divisao']
         categoria = row['Categoria']
-        row_key = f"{ano}_{index}"
+        row_key = f"{ano}_{row['Index']}"  # Usar o valor da coluna 'Index' para unicidade
         try:
             # Criar referência com hierarquia Ano/Divisao/Categoria
             child_ref = ref.child(ano).child(divisao).child(categoria).child(row_key)
-            # Remover campos Ano, Divisao, Categoria do dicionário para evitar duplicação
-            row_dict = row.drop(['Ano', 'Divisao', 'Categoria']).to_dict()
+            # Remover campos Ano, Divisao, Categoria, Index do dicionário para evitar duplicação
+            row_dict = row.drop(['Ano', 'Divisao', 'Categoria', 'Index']).to_dict()
             print(f"Tentando gravar linha de {table_name} {row_key} ({ano}/{divisao}/{categoria}): {row_dict}")
             child_ref.set(row_dict)
             print(f"Linha de {table_name} {row_key} gravada com sucesso")
