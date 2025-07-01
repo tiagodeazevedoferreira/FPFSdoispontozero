@@ -212,17 +212,25 @@ if df_classificacao.empty and df_jogos.empty and df_artilharia.empty:
     print("Erro: Nenhum dado foi extraído.")
     exit(1)
 
-# Função para salvar DataFrame no Firebase com hierarquia Ano/Divisao/Categoria
+# Função para salvar DataFrame no Firebase com hierarquia divisao/categoria/index
 def save_to_firebase(df, ref, table_name):
+    try:
+        # Limpar todos os dados existentes no nó table_name
+        ref.delete()
+        print(f"Dados existentes em {table_name} foram limpos.")
+    except Exception as e:
+        print(f"Erro ao limpar dados em {table_name}: {str(e)}")
+
     for index, row in df.iterrows():
-        ano = row['Ano']
         divisao = row['Divisao']
         categoria = row['Categoria']
-        row_key = f"{ano}_{row['Index']}"  # Usar o valor da coluna 'Index' para unicidade
+        row_key = str(row['Index'])  # Usar apenas o Index como row_key (ex.: '1')
         try:
-            child_ref = ref.child(ano).child(divisao).child(categoria).child(row_key)
+            # Criar referência com hierarquia table_name/divisao/categoria/index
+            child_ref = ref.child(divisao).child(categoria).child(row_key)
+            # Remover Ano, Divisao, Categoria, Index do dicionário
             row_dict = row.drop(['Ano', 'Divisao', 'Categoria', 'Index']).to_dict()
-            print(f"Tentando gravar linha de {table_name} {row_key} ({ano}/{divisao}/{categoria}): {row_dict}")
+            print(f"Tentando gravar linha de {table_name} {row_key} ({divisao}/{categoria}): {row_dict}")
             child_ref.set(row_dict)
             print(f"Linha de {table_name} {row_key} gravada com sucesso")
         except Exception as e:
